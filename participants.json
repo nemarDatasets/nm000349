@@ -1,0 +1,35 @@
+{
+    "source_id": {
+        "Description": "Participant code in the original KiltHub release (M = migraine, C = control)"
+    },
+    "group": {
+        "Description": "Diagnostic group",
+        "Levels": {
+            "migraine": "Interictal migraine",
+            "control": "Healthy control"
+        }
+    },
+    "sex": {
+        "Description": "Sex as reported in Migraine_Control_Demographics.xlsx",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "age": {
+        "Description": "Age at recording",
+        "Units": "year"
+    },
+    "aura": {
+        "Description": "Migraine with aura (migraine group only)"
+    },
+    "medication_before_session": {
+        "Description": "Medication taken before the recording session (migraine group only)"
+    },
+    "in_paper_analysis": {
+        "Description": "Whether the participant was included in Chamanzar et al. (2021), per the release README"
+    },
+    "notes": {
+        "Description": "Reason for exclusion from the published analysis"
+    }
+}

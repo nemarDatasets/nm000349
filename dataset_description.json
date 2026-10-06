@@ -1,0 +1,40 @@
+{
+    "Name": "Chamanzar2020: Ultra high-density EEG of interictal migraine and controls during visual, auditory stimulation and rest",
+    "BIDSVersion": "1.10.0",
+    "DatasetType": "raw",
+    "Authors": [
+        "Alireza Chamanzar",
+        "Sarah M. Haigh",
+        "Pulkit Grover",
+        "Marlene Behrmann"
+    ],
+    "GeneratedBy": [
+        {
+            "Name": "convert_bids.py (mne-bids)",
+            "Version": "0.19.0",
+            "Description": "BDF files copied byte-identically; sidecars, events and participants generated from the release README, protocol PDF, stimulus code and demographics sheet."
+        }
+    ],
+    "License": "CC-BY-4.0",
+    "HowToAcknowledge": "Please cite Chamanzar et al. (2021), Brain Communications, doi:10.1093/braincomms/fcab061, and the data release doi:10.1184/R1/12636731.",
+    "Funding": [
+        "CMU BrainHUB (MB, PG, AC)",
+        "Chuck Noll Foundation for Brain Injury Research (PG)",
+        "NARSAD Young Investigator Grant, BBRF 26282 (SMH)",
+        "NSF EPSCoR 1632849 (SMH, Co-I)"
+    ],
+    "EthicsApprovals": [
+        "Carnegie Mellon University Institutional Review Board; written informed consent from each participant (Chamanzar et al. 2021)"
+    ],
+    "ReferencesAndLinks": [
+        "https://doi.org/10.1093/braincomms/fcab061",
+        "https://doi.org/10.1184/R1/12636731"
+    ],
+    "SourceDatasets": [
+        {
+            "URL": "https://kilthub.cmu.edu/articles/dataset/12636731",
+            "DOI": "doi:10.1184/R1/12636731",
+            "Version": "v1 (2020-07-21)"
+        }
+    ]
+}

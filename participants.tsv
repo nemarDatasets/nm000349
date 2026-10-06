@@ -1,0 +1,40 @@
+participant_id	source_id	group	sex	age	aura	medication_before_session	in_paper_analysis	notes
+sub-C01	C1	control	F	20	n/a	n/a	yes	n/a
+sub-C02	C2	control	n/a	n/a	n/a	n/a	no	extra control, not in the matched control set
+sub-C03	C3	control	F	20	n/a	n/a	yes	n/a
+sub-C04	C4	control	F	19	n/a	n/a	yes	n/a
+sub-C05	C5	control	M	30	n/a	n/a	yes	n/a
+sub-C06	C6	control	n/a	n/a	n/a	n/a	no	extra control, not in the matched control set
+sub-C07	C7	control	M	30	n/a	n/a	yes	n/a
+sub-C08	C8	control	F	30	n/a	n/a	yes	n/a
+sub-C09	C9	control	F	54	n/a	n/a	yes	n/a
+sub-C10	C10	control	M	43	n/a	n/a	yes	n/a
+sub-C11	C11	control	M	24	n/a	n/a	yes	n/a
+sub-C12	C12	control	n/a	n/a	n/a	n/a	no	extra control, not in the matched control set
+sub-C13	C13	control	M	20	n/a	n/a	yes	n/a
+sub-C14	C14	control	F	20	n/a	n/a	yes	n/a
+sub-C15	C15	control	F	20	n/a	n/a	yes	n/a
+sub-C16	C16	control	F	25	n/a	n/a	yes	n/a
+sub-C17	C17	control	F	29	n/a	n/a	yes	n/a
+sub-C18	C18	control	F	26	n/a	n/a	yes	n/a
+sub-C19	C19	control	F	21	n/a	n/a	yes	n/a
+sub-C20	C20	control	F	23	n/a	n/a	yes	n/a
+sub-C21	C21	control	F	49	n/a	n/a	yes	n/a
+sub-M01	M1	migraine	M	19	yes	no	yes	n/a
+sub-M02	M2	migraine	F	23	yes	yes	no	excluded in paper: medication before session
+sub-M03	M3	migraine	F	19	no	no	yes	n/a
+sub-M04	M4	migraine	M	20	yes	no	yes	n/a
+sub-M05	M5	migraine	F	19	yes	no	yes	n/a
+sub-M06	M6	migraine	F	54	yes	yes	no	excluded in paper: medication before session
+sub-M07	M7	migraine	M	31	yes	no	yes	n/a
+sub-M08	M8	migraine	M	43	no	no	yes	n/a
+sub-M09	M9	migraine	M	31	no	no	yes	n/a
+sub-M10	M10	migraine	F	19	yes	no	yes	n/a
+sub-M11	M11	migraine	F	19	yes	no	yes	n/a
+sub-M12	M12	migraine	F	22	no	no	yes	n/a
+sub-M13	M13	migraine	F	22	no	no	no	excluded in paper: no SSAEP recording
+sub-M14	M14	migraine	F	47	yes	no	yes	n/a
+sub-M15	M15	migraine	F	20	no	no	yes	n/a
+sub-M16	M16	migraine	F	24	yes	no	yes	n/a
+sub-M17	M17	migraine	F	30	yes	no	yes	n/a
+sub-M18	M18	migraine	F	30	yes	yes	no	excluded in paper: medication before session

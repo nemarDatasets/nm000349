@@ -1,0 +1,4 @@
+filename	acq_time
+eeg/sub-M04_task-rest_eeg.bdf	2018-02-21T17:27:50.000000Z
+eeg/sub-M04_task-ssaep_eeg.bdf	2018-02-21T17:37:19.000000Z
+eeg/sub-M04_task-ssvep_eeg.bdf	2018-02-21T17:51:39.000000Z

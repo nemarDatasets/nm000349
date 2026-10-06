@@ -1,0 +1,32 @@
+{
+    "onset": {
+        "Description": "Onset (in seconds) of the event from the beginning of the first datapoint. Negative onsets account for events before the first stored data point.",
+        "Units": "s"
+    },
+    "duration": {
+        "Description": "Duration of the event in seconds from onset. Must be zero, positive, or 'n/a' if unavailable. A zero value indicates an impulse event. ",
+        "Units": "s"
+    },
+    "sample": {
+        "Description": "The event onset time in number of sampling points.First sample is 0."
+    },
+    "value": {
+        "Description": "Original trigger value on the Status channel (low 16 bits)"
+    },
+    "trial_type": {
+        "Description": "Event label decoded from the BioSemi Status channel (low 16 bits)",
+        "Levels": {
+            "run_start": "Start of the task run (trigger 30)",
+            "run_end": "End of the task run (trigger 20)",
+            "stim_onset_4hz": "Onset of a 2-s stimulus modulated at 4 Hz (trigger 1)",
+            "stim_onset_6hz": "Onset of a 2-s stimulus modulated at 6 Hz (trigger 2)",
+            "feedback_window_end_4hz": "End of the 1-1.5 s feedback interval after a 4 Hz attention trial (key press; trigger 11)",
+            "feedback_window_end_6hz": "End of the 1-1.5 s feedback interval after a 6 Hz attention trial (key press; trigger 22)",
+            "undocumented_code_23": "Trigger value 23, not in the stimulus code; likely overlap of 1 and 22"
+        }
+    },
+    "StimulusPresentation": {
+        "SoftwareName": "Psychtoolbox (MATLAB)",
+        "Code": "stimuli/ (vis_SSVEP.m, aud_SSAEP.m, Resting_migraine.m)"
+    }
+}

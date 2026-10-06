@@ -1,0 +1,23 @@
+{
+    "TaskName": "ssvep",
+    "Manufacturer": "BioSemi",
+    "PowerLineFrequency": 60,
+    "SamplingFrequency": 512.0,
+    "SoftwareFilters": "n/a",
+    "RecordingDuration": 772.998046875,
+    "RecordingType": "continuous",
+    "EEGReference": "BioSemi CMS/DRL (online); no offline reference applied",
+    "EEGGround": "BioSemi DRL",
+    "EEGPlacementScheme": "Custom ultra-high-density layout (~14 mm centre-to-centre) over occipital, parietal and frontal areas; channel labels follow 10-5 names but positions are custom (Chamanzar et al. 2021, Fig. 2). No digitized positions were released.",
+    "EEGChannelCount": 130,
+    "EOGChannelCount": 4,
+    "ECGChannelCount": 1,
+    "EMGChannelCount": 0,
+    "MiscChannelCount": 4,
+    "TriggerChannelCount": 1,
+    "ManufacturersModelName": "ActiveTwo",
+    "CapManufacturer": "Custom-designed high-density nylon cap",
+    "InstitutionName": "Carnegie Mellon University",
+    "InstitutionAddress": "5000 Forbes Ave., Pittsburgh, PA 15213, USA",
+    "TaskDescription": "Visual steady-state task: vertical grating pattern flickering sinusoidally at 4 or 6 Hz for 2 s; inter-stimulus interval 1-1.5 s. On ~10% of trials the fixation cross turned red and the participant pressed a key (colour detection)."
+}

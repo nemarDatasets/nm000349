@@ -1,0 +1,2124 @@
+{
+ "source": {
+  "DOI": "10.1184/R1/12636731",
+  "URL": "https://kilthub.cmu.edu/articles/dataset/12636731",
+  "license": "CC BY 4.0",
+  "version": "v1, published 2020-07-21"
+ },
+ "verification": "sourcedata/original_release/ holds all 43 files of the KiltHub release exactly as published (md5 equal to figshare computed_md5, re-checked after copy). Per-subject reaction-time files under sourcedata/sub-*/ are extracted from those zips; *_eeg.bdf files in the BIDS tree are byte-identical to the BDFs inside the zips (sha256 listed).",
+ "retrieved": "2026-10-05",
+ "built": "2026-10-05T13:38:20",
+ "software": {
+  "mne": "1.13.2",
+  "mne_bids": "0.19.0",
+  "python": "3.12.12"
+ },
+ "n_files": 253,
+ "total_bytes": 28747351050,
+ "files": [
+  {
+   "path": "README.txt",
+   "bids_path": "sourcedata/original_release/README.txt",
+   "bytes": 7889,
+   "md5": "e30ae8471a04fc2164d698f9d2235d13",
+   "sha256": "3c197decc5a9a5a5dd5e2c9d58658a328cd0c9691c81cac71b29cc51d986f65d",
+   "scope": "original_release",
+   "figshare_file_id": 23891231,
+   "download_url": "https://ndownloader.figshare.com/files/23891231"
+  },
+  {
+   "path": "Migraine_Control_Demographics.xlsx",
+   "bids_path": "sourcedata/original_release/Migraine_Control_Demographics.xlsx",
+   "bytes": 10074,
+   "md5": "cb0f6fb66c11109af9f7d0fd391d89be",
+   "sha256": "b80260a65e0caa952498081444bea686d533e3f8a259b2650c89b3257e83be20",
+   "scope": "original_release",
+   "figshare_file_id": 23888066,
+   "download_url": "https://ndownloader.figshare.com/files/23888066"
+  },
+  {
+   "path": "EEG experiment protocol_Migraine_Brain_KiltHub_vF.pdf",
+   "bids_path": "sourcedata/original_release/EEG experiment protocol_Migraine_Brain_KiltHub_vF.pdf",
+   "bytes": 118218,
+   "md5": "408011eeb0b094711e3f5fdba6b37fc5",
+   "sha256": "b7bfda7498d27a95368c300976a4e25c1c7afb4baf8e01588108400b0864e5e9",
+   "scope": "original_release",
+   "figshare_file_id": 23891132,
+   "download_url": "https://ndownloader.figshare.com/files/23891132"
+  },
+  {
+   "path": "EEG_Stimuli.zip",
+   "bids_path": "sourcedata/original_release/EEG_Stimuli.zip",
+   "bytes": 10926,
+   "md5": "15a0349722f74b5b4c40d2328df170ef",
+   "sha256": "7a3239e8b51336f6bf51bccfa5101efac224feb378b01b0f6dcb63a3b8f3190e",
+   "scope": "original_release",
+   "figshare_file_id": 23891135,
+   "download_url": "https://ndownloader.figshare.com/files/23891135"
+  },
+  {
+   "path": "M1_1.zip",
+   "bids_path": "sourcedata/original_release/M1_1.zip",
+   "bytes": 371083536,
+   "md5": "4d1ae3a5420cc3d42d495330362301c9",
+   "sha256": "303a90ae20093b5319a977a1ededab1e308dd9f3a888fa0cd6405ee6f06d15d7",
+   "scope": "original_release",
+   "figshare_file_id": 23842511,
+   "download_url": "https://ndownloader.figshare.com/files/23842511"
+  },
+  {
+   "path": "M2_1.zip",
+   "bids_path": "sourcedata/original_release/M2_1.zip",
+   "bytes": 369149149,
+   "md5": "6590744e122f031cf362008a486f06da",
+   "sha256": "f53affd37fcc40846a0ac962b63f8998e05c7820bd39de2f5bcc490597cc1fc5",
+   "scope": "original_release",
+   "figshare_file_id": 23842490,
+   "download_url": "https://ndownloader.figshare.com/files/23842490"
+  },
+  {
+   "path": "M3_2.zip",
+   "bids_path": "sourcedata/original_release/M3_2.zip",
+   "bytes": 319280890,
+   "md5": "382f28c94bf624658776302779b56315",
+   "sha256": "58b5be998715617a37c0cf59e4c428b858eead74224cdfd4ab41c8963336bc62",
+   "scope": "original_release",
+   "figshare_file_id": 23858387,
+   "download_url": "https://ndownloader.figshare.com/files/23858387"
+  },
+  {
+   "path": "M4_1.zip",
+   "bids_path": "sourcedata/original_release/M4_1.zip",
+   "bytes": 271939004,
+   "md5": "8680bcf3bec4967efc2e3d853bb31d05",
+   "sha256": "e5da968c31dfb25270bb68dd39eeddd7a062c2c080872f6f860b307567dd2469",
+   "scope": "original_release",
+   "figshare_file_id": 23841926,
+   "download_url": "https://ndownloader.figshare.com/files/23841926"
+  },
+  {
+   "path": "M5_1.zip",
+   "bids_path": "sourcedata/original_release/M5_1.zip",
+   "bytes": 304099000,
+   "md5": "79f6b78d783800b59e9b1c1cc796b2e8",
+   "sha256": "c900011f90c8f0ada85c010377a3032b9daba1bd19848b0cc23c8e99b2f6da33",
+   "scope": "original_release",
+   "figshare_file_id": 23841728,
+   "download_url": "https://ndownloader.figshare.com/files/23841728"
+  },
+  {
+   "path": "M6_1.zip",
+   "bids_path": "sourcedata/original_release/M6_1.zip",
+   "bytes": 332051961,
+   "md5": "3926dc4b9337823ff0ff2044afac4e92",
+   "sha256": "291292a6a19572d9411e6409dae54b6b76f777f86caf1b5f79d5691c6538b58a",
+   "scope": "original_release",
+   "figshare_file_id": 23842541,
+   "download_url": "https://ndownloader.figshare.com/files/23842541"
+  },
+  {
+   "path": "M7_1.zip",
+   "bids_path": "sourcedata/original_release/M7_1.zip",
+   "bytes": 293561989,
+   "md5": "78edd22eeaa31f6e55ff8de6787cf16d",
+   "sha256": "4d22dcc89d1d793dd2b98caa5cec9d51a2a0d50437c17c6e58a6525d554eb9c5",
+   "scope": "original_release",
+   "figshare_file_id": 23842616,
+   "download_url": "https://ndownloader.figshare.com/files/23842616"
+  },
+  {
+   "path": "M8_2.zip",
+   "bids_path": "sourcedata/original_release/M8_2.zip",
+   "bytes": 313888507,
+   "md5": "392196e1f8c9a83bebc88b4e17cef464",
+   "sha256": "d18af317ed58c9974363a0f57fecdf95b96911d55961bb1b2375b998c0318b93",
+   "scope": "original_release",
+   "figshare_file_id": 23842592,
+   "download_url": "https://ndownloader.figshare.com/files/23842592"
+  },
+  {
+   "path": "M9_2.zip",
+   "bids_path": "sourcedata/original_release/M9_2.zip",
+   "bytes": 322055840,
+   "md5": "a2e419866b44a21031740d42064d103a",
+   "sha256": "989b5de214c388ce39f6c6e7a02d871da72bbc3b1762894de66aab6a7838d8d6",
+   "scope": "original_release",
+   "figshare_file_id": 23842571,
+   "download_url": "https://ndownloader.figshare.com/files/23842571"
+  },
+  {
+   "path": "M10_1.zip",
+   "bids_path": "sourcedata/original_release/M10_1.zip",
+   "bytes": 328478367,
+   "md5": "d480c7dafda8b61bc38a33bff5d3a18f",
+   "sha256": "726190cded17da51f434f663166a99049732afc3b4768898d3c159eab983bbfc",
+   "scope": "original_release",
+   "figshare_file_id": 23841782,
+   "download_url": "https://ndownloader.figshare.com/files/23841782"
+  },
+  {
+   "path": "M11_1.zip",
+   "bids_path": "sourcedata/original_release/M11_1.zip",
+   "bytes": 294244461,
+   "md5": "f6f4dc68b5dde83e1413281fcc1e877f",
+   "sha256": "25b92f2b2067bd8b94a74bdf5a8c0e2dbfcb1b31a6772de459b39cb1b8eec61c",
+   "scope": "original_release",
+   "figshare_file_id": 23858372,
+   "download_url": "https://ndownloader.figshare.com/files/23858372"
+  },
+  {
+   "path": "M12_2.zip",
+   "bids_path": "sourcedata/original_release/M12_2.zip",
+   "bytes": 301732950,
+   "md5": "7a1cf7133bd587ff2c625e46f0612028",
+   "sha256": "26a2dec9ea4d034f8c85e4d4ea48bd794aa3baaa1fbd528b73ed3fa42158bbeb",
+   "scope": "original_release",
+   "figshare_file_id": 23858375,
+   "download_url": "https://ndownloader.figshare.com/files/23858375"
+  },
+  {
+   "path": "M13_2.zip",
+   "bids_path": "sourcedata/original_release/M13_2.zip",
+   "bytes": 183666595,
+   "md5": "43337103df9b578fbd52e295d622a461",
+   "sha256": "e7f5f787a79f30b5299e8532c95eb949810d82b897a66457550c934a72f5d0f2",
+   "scope": "original_release",
+   "figshare_file_id": 23858273,
+   "download_url": "https://ndownloader.figshare.com/files/23858273"
+  },
+  {
+   "path": "M14_1.zip",
+   "bids_path": "sourcedata/original_release/M14_1.zip",
+   "bytes": 317782813,
+   "md5": "d0c7ba49d2759b5dea108d591f99c12f",
+   "sha256": "8a4cde2a885459f6f4ed9b328690ef800500f5c42a7c4ebf36d41e43fb4654e0",
+   "scope": "original_release",
+   "figshare_file_id": 23858381,
+   "download_url": "https://ndownloader.figshare.com/files/23858381"
+  },
+  {
+   "path": "M15_2.zip",
+   "bids_path": "sourcedata/original_release/M15_2.zip",
+   "bytes": 347521543,
+   "md5": "fb2a7337ecc82892e6e3ce82d1ec7d25",
+   "sha256": "b5dd49b114b8f7ec5b03a217a0e71b1eaeac5bddbef580518ee45404bf0c5a95",
+   "scope": "original_release",
+   "figshare_file_id": 23858384,
+   "download_url": "https://ndownloader.figshare.com/files/23858384"
+  },
+  {
+   "path": "M16_1.zip",
+   "bids_path": "sourcedata/original_release/M16_1.zip",
+   "bytes": 298654335,
+   "md5": "a6aa07a47486dfa53db56f9ebc956865",
+   "sha256": "4e7d8ad8987bdf1f47ce8efcecda619f036340a34eb842f48953914c90fc21c6",
+   "scope": "original_release",
+   "figshare_file_id": 23842418,
+   "download_url": "https://ndownloader.figshare.com/files/23842418"
+  },
+  {
+   "path": "M17_1.zip",
+   "bids_path": "sourcedata/original_release/M17_1.zip",
+   "bytes": 322601157,
+   "md5": "2456e22334c8e2af29069b568e161b73",
+   "sha256": "ce627794c223ee901f29cd5c93589e6f315b880a83f92fca80041a23f41175e5",
+   "scope": "original_release",
+   "figshare_file_id": 23842433,
+   "download_url": "https://ndownloader.figshare.com/files/23842433"
+  },
+  {
+   "path": "M18_1.zip",
+   "bids_path": "sourcedata/original_release/M18_1.zip",
+   "bytes": 295627059,
+   "md5": "9715099aebe2e4988b0766611fdf29e0",
+   "sha256": "f7b020b716ea5b33ad60f3de8cd48d3feac8fa25d09e07d958527a11521de21c",
+   "scope": "original_release",
+   "figshare_file_id": 23842463,
+   "download_url": "https://ndownloader.figshare.com/files/23842463"
+  },
+  {
+   "path": "C1.zip",
+   "bids_path": "sourcedata/original_release/C1.zip",
+   "bytes": 286806852,
+   "md5": "5c0c34dfa46d5f3515119ca901c63423",
+   "sha256": "64d100eb7980c9b2a0e55c1a65731e2c6b46436d7a9286b1561e076ec92250b8",
+   "scope": "original_release",
+   "figshare_file_id": 23841368,
+   "download_url": "https://ndownloader.figshare.com/files/23841368"
+  },
+  {
+   "path": "C2.zip",
+   "bids_path": "sourcedata/original_release/C2.zip",
+   "bytes": 294901624,
+   "md5": "48bdc8b295295e4f4ade7afda4660cb4",
+   "sha256": "9cc36f31f642a6b19bfba50b04e1ca5d725825a3cb7d609d6003024d8ffaae13",
+   "scope": "original_release",
+   "figshare_file_id": 23836919,
+   "download_url": "https://ndownloader.figshare.com/files/23836919"
+  },
+  {
+   "path": "C3.zip",
+   "bids_path": "sourcedata/original_release/C3.zip",
+   "bytes": 308834123,
+   "md5": "87d5228e790902af686dfef9a5f67edc",
+   "sha256": "e5eaad16420aeba8474336da19fdab1874f79fe0bf260e1c3f72983bbb473890",
+   "scope": "original_release",
+   "figshare_file_id": 23841371,
+   "download_url": "https://ndownloader.figshare.com/files/23841371"
+  },
+  {
+   "path": "C4.zip",
+   "bids_path": "sourcedata/original_release/C4.zip",
+   "bytes": 308453053,
+   "md5": "8656884d9938ba44009183d16d5583eb",
+   "sha256": "a30f1ee15d29b5c6e7005ebae8e4c34ca6c8348eb376817c218cdae284524ba2",
+   "scope": "original_release",
+   "figshare_file_id": 23836955,
+   "download_url": "https://ndownloader.figshare.com/files/23836955"
+  },
+  {
+   "path": "C5.zip",
+   "bids_path": "sourcedata/original_release/C5.zip",
+   "bytes": 277618679,
+   "md5": "f8e01df81d5122f968104c430dc2dc83",
+   "sha256": "615065f7b62354fcf31c7bbcbeab1c55c8453acaf5020e712934d08c09990058",
+   "scope": "original_release",
+   "figshare_file_id": 23836973,
+   "download_url": "https://ndownloader.figshare.com/files/23836973"
+  },
+  {
+   "path": "C6.zip",
+   "bids_path": "sourcedata/original_release/C6.zip",
+   "bytes": 329998208,
+   "md5": "93cec12421f90b35185834fa53a914a2",
+   "sha256": "214c1918213ace74ca34e41cc9019d06dbdb13ec5a3e73482f0d79da8e6221ab",
+   "scope": "original_release",
+   "figshare_file_id": 23836937,
+   "download_url": "https://ndownloader.figshare.com/files/23836937"
+  },
+  {
+   "path": "C7.zip",
+   "bids_path": "sourcedata/original_release/C7.zip",
+   "bytes": 346266638,
+   "md5": "673f2d2007de3cdb9628e6e2a0c01e99",
+   "sha256": "2f195e28a6265812d9c481fae3944c0efe6c3adad05ed881c85d044d8aff0ae2",
+   "scope": "original_release",
+   "figshare_file_id": 23837000,
+   "download_url": "https://ndownloader.figshare.com/files/23837000"
+  },
+  {
+   "path": "C8.zip",
+   "bids_path": "sourcedata/original_release/C8.zip",
+   "bytes": 302730690,
+   "md5": "8204e7b4fe39cc386188f31115e0fd59",
+   "sha256": "8d6e65ce968014cbe76e550363afaa585736b7269b0add2006ec7151e8045cc6",
+   "scope": "original_release",
+   "figshare_file_id": 23837027,
+   "download_url": "https://ndownloader.figshare.com/files/23837027"
+  },
+  {
+   "path": "C9.zip",
+   "bids_path": "sourcedata/original_release/C9.zip",
+   "bytes": 297569581,
+   "md5": "782be72d859937b545d315bdaf1e58df",
+   "sha256": "5857d71ef90961dcf830c0a58130fb6f105ecde13cc3aff2bfa3640ed067fd55",
+   "scope": "original_release",
+   "figshare_file_id": 23837012,
+   "download_url": "https://ndownloader.figshare.com/files/23837012"
+  },
+  {
+   "path": "C10.zip",
+   "bids_path": "sourcedata/original_release/C10.zip",
+   "bytes": 305566734,
+   "md5": "aa9c6f43095e84c744e3733868733aee",
+   "sha256": "492a75d92e4ef1f61c289b5a70741153b29f74cbe12c7cd26b2d38c6a28b1e14",
+   "scope": "original_release",
+   "figshare_file_id": 23837054,
+   "download_url": "https://ndownloader.figshare.com/files/23837054"
+  },
+  {
+   "path": "C11.zip",
+   "bids_path": "sourcedata/original_release/C11.zip",
+   "bytes": 294549308,
+   "md5": "a33532a73741c7de14d1685b0d650200",
+   "sha256": "84d98f22db42a296208be9da1e7235d171cba1e6ed758ef7e661ca0ebfeabefe",
+   "scope": "original_release",
+   "figshare_file_id": 23837117,
+   "download_url": "https://ndownloader.figshare.com/files/23837117"
+  },
+  {
+   "path": "C12.zip",
+   "bids_path": "sourcedata/original_release/C12.zip",
+   "bytes": 222305961,
+   "md5": "a305a00c574e6579ba03dc20e694a404",
+   "sha256": "80203bdcd1dd88dafb34dd6678e3a693d5fa6bb6d6df0a6f39cf12db80ef4fc3",
+   "scope": "original_release",
+   "figshare_file_id": 23841374,
+   "download_url": "https://ndownloader.figshare.com/files/23841374"
+  },
+  {
+   "path": "C13.zip",
+   "bids_path": "sourcedata/original_release/C13.zip",
+   "bytes": 300859043,
+   "md5": "d114fafc23eb24d242593947bd8a5eae",
+   "sha256": "9c494f3576a0e8c6b14b46253a52ee0599025baa1b2df8226749f25e777288fa",
+   "scope": "original_release",
+   "figshare_file_id": 23841377,
+   "download_url": "https://ndownloader.figshare.com/files/23841377"
+  },
+  {
+   "path": "C14.zip",
+   "bids_path": "sourcedata/original_release/C14.zip",
+   "bytes": 301483322,
+   "md5": "61c8d2aba1eecb33bc9cad450f8fc1b9",
+   "sha256": "d27135b879c94a8a31e73056cfc19e5f6296c3d457851061513bbea4f4cb7202",
+   "scope": "original_release",
+   "figshare_file_id": 23837135,
+   "download_url": "https://ndownloader.figshare.com/files/23837135"
+  },
+  {
+   "path": "C15.zip",
+   "bids_path": "sourcedata/original_release/C15.zip",
+   "bytes": 297341938,
+   "md5": "75449175eae895158f80edbb0af3dd0b",
+   "sha256": "88e2aedd7532b08edc142da61bfdb0c3fdcec5296ca238c41f59e48af32d91f1",
+   "scope": "original_release",
+   "figshare_file_id": 23837171,
+   "download_url": "https://ndownloader.figshare.com/files/23837171"
+  },
+  {
+   "path": "C16.zip",
+   "bids_path": "sourcedata/original_release/C16.zip",
+   "bytes": 291786422,
+   "md5": "05e61d0a269b840f8efc3ca6545d6e4b",
+   "sha256": "c1a6cfbe93ef60f3be558dfb9fe3bd5143a4dbf7f491df73edb4378fc0a715e3",
+   "scope": "original_release",
+   "figshare_file_id": 23837204,
+   "download_url": "https://ndownloader.figshare.com/files/23837204"
+  },
+  {
+   "path": "C17.zip",
+   "bids_path": "sourcedata/original_release/C17.zip",
+   "bytes": 284304446,
+   "md5": "c7bfc22d5fd0d494c01cf846aca4406c",
+   "sha256": "2bacd338d2420d5e38f2f23a534e88885e77e54f4b57d5bcadbfb33c4f89deaf",
+   "scope": "original_release",
+   "figshare_file_id": 23841407,
+   "download_url": "https://ndownloader.figshare.com/files/23841407"
+  },
+  {
+   "path": "C18.zip",
+   "bids_path": "sourcedata/original_release/C18.zip",
+   "bytes": 307952631,
+   "md5": "1bd5d17ec22486e713d3d58421862c14",
+   "sha256": "b8e91771333dacc2969c4e1872bc48656b50415f9357356bb80d71a8361974b9",
+   "scope": "original_release",
+   "figshare_file_id": 23841410,
+   "download_url": "https://ndownloader.figshare.com/files/23841410"
+  },
+  {
+   "path": "C19.zip",
+   "bids_path": "sourcedata/original_release/C19.zip",
+   "bytes": 312703727,
+   "md5": "b5b6f3630beda7acca70067f3696aeb7",
+   "sha256": "5d882d172276562edbe8a49d113289129a97c760cef07f2917b0f405710b89b3",
+   "scope": "original_release",
+   "figshare_file_id": 23841419,
+   "download_url": "https://ndownloader.figshare.com/files/23841419"
+  },
+  {
+   "path": "C20.zip",
+   "bids_path": "sourcedata/original_release/C20.zip",
+   "bytes": 298759382,
+   "md5": "7beb8e87d59149e7c5e688be1deffff9",
+   "sha256": "2005e097515c66380513ccc4cde4b3ddd001d78cf98c3f4712de5be2155d9a4a",
+   "scope": "original_release",
+   "figshare_file_id": 23837228,
+   "download_url": "https://ndownloader.figshare.com/files/23837228"
+  },
+  {
+   "path": "C21.zip",
+   "bids_path": "sourcedata/original_release/C21.zip",
+   "bytes": 278030787,
+   "md5": "b3b2011e5facd7966df906cae9c9109b",
+   "sha256": "dcbbab781ada59f5a3a4e72df8b4289ca5c7221aa357db704339b83bcf76f49b",
+   "scope": "original_release",
+   "figshare_file_id": 23837264,
+   "download_url": "https://ndownloader.figshare.com/files/23837264"
+  },
+  {
+   "path": "C1/C1/C1_Resting.bdf",
+   "bids_path": "sub-C01/eeg/sub-C01_task-rest_eeg.bdf",
+   "bytes": 89395456,
+   "sha256": "5b4057318763d1fae25c3596caba3005352f7b0fd15b12f315aad6b650e0de0f",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C1"
+  },
+  {
+   "path": "C1/C1/C1_SSAEP.bdf",
+   "bids_path": "sub-C01/eeg/sub-C01_task-ssaep_eeg.bdf",
+   "bytes": 173445376,
+   "sha256": "709a4a190cf0b016a73c443af645bceb348b879b77d76c6c14d149c745e7b926",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C1"
+  },
+  {
+   "path": "C1/C1/C1_SSVEP.bdf",
+   "bids_path": "sub-C01/eeg/sub-C01_task-ssvep_eeg.bdf",
+   "bytes": 165261568,
+   "sha256": "13c39cae9b2bba0bb0de2eb35ab0c2c3e0201b58fb236f51cde655f94d022d20",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C1"
+  },
+  {
+   "path": "C10/C10/C10_Resting.bdf",
+   "bids_path": "sub-C10/eeg/sub-C10_task-rest_eeg.bdf",
+   "bytes": 89395456,
+   "sha256": "f0a61304a9ca4c31c0c7ad71a620fc4fc275f6c5608eecaaf099233659e4ba5a",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C10"
+  },
+  {
+   "path": "C10/C10/C10_SSAEP.bdf",
+   "bids_path": "sub-C10/eeg/sub-C10_task-ssaep_eeg.bdf",
+   "bytes": 181850368,
+   "sha256": "a94e0b1492383e82e4d705564a9c52dbd474fa632372b01b6ef00abb905cc07f",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C10"
+  },
+  {
+   "path": "C10/C10/C10_SSVEP.bdf",
+   "bids_path": "sub-C10/eeg/sub-C10_task-ssvep_eeg.bdf",
+   "bytes": 168136960,
+   "sha256": "e172e22e7541feca855724d5ff57c3b34d7ffdf7bc9dadd40e38c5fb9f45be22",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C10"
+  },
+  {
+   "path": "C11/C11/C11_Resting.bdf",
+   "bids_path": "sub-C11/eeg/sub-C11_task-rest_eeg.bdf",
+   "bytes": 86520064,
+   "sha256": "f299c38e6c3c38885888967b6798e8d23847a15519ea2452dad4914fd0dc00f7",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C11"
+  },
+  {
+   "path": "C11/C11/C11_SSAEP.bdf",
+   "bids_path": "sub-C11/eeg/sub-C11_task-ssaep_eeg.bdf",
+   "bytes": 163934464,
+   "sha256": "d3e4b6d2b73e8e0681f4e3d533a4fdb4d79c6f8edfb7834d7c323afc135f11a0",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C11"
+  },
+  {
+   "path": "C11/C11/C11_SSVEP.bdf",
+   "bids_path": "sub-C11/eeg/sub-C11_task-ssvep_eeg.bdf",
+   "bytes": 165925120,
+   "sha256": "0feca79a9bf0655fdfb5be3b096b22ec9e245851a5b2f4b7384f2e913b807ffb",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C11"
+  },
+  {
+   "path": "C12/C12/C12_Resting.bdf",
+   "bids_path": "sub-C12/eeg/sub-C12_task-rest_eeg.bdf",
+   "bytes": 94925056,
+   "sha256": "2598c46c711208914d63a1b19b5f1d57c077385fb5ba3ce161ef75360fa71e7a",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C12"
+  },
+  {
+   "path": "C12/C12/C12_SSAEP.bdf",
+   "bids_path": "sub-C12/eeg/sub-C12_task-ssaep_eeg.bdf",
+   "bytes": 198881536,
+   "sha256": "025d43b67e71911b105df446294059bb096312bb501596510f612bb7522de636",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C12"
+  },
+  {
+   "path": "C12/C12/C12_SSVEP.bdf",
+   "bids_path": "sub-C12/eeg/sub-C12_task-ssvep_eeg.bdf",
+   "bytes": 47591680,
+   "sha256": "5fee49b1ec3dfec415c37a15f3b994eec2c0d89f3abcd10ac1ace7f9c3edb48a",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C12"
+  },
+  {
+   "path": "C13/C13/C13_Resting.bdf",
+   "bids_path": "sub-C13/eeg/sub-C13_task-rest_eeg.bdf",
+   "bytes": 86298880,
+   "sha256": "322ea00f02dd5066008de6764f587c7603da2a6da50432fcbd47f8dde5740d8c",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C13"
+  },
+  {
+   "path": "C13/C13/C13_SSAEP.bdf",
+   "bids_path": "sub-C13/eeg/sub-C13_task-ssaep_eeg.bdf",
+   "bytes": 166809856,
+   "sha256": "4576693f835ada0605f046254464ce1cf75356541426f8a94a551a8d3013b4a5",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C13"
+  },
+  {
+   "path": "C13/C13/C13_SSVEP.bdf",
+   "bids_path": "sub-C13/eeg/sub-C13_task-ssvep_eeg.bdf",
+   "bytes": 161059072,
+   "sha256": "c19d94eac3be8ac7a7995389b816d0a73d728988b77f1ba305043a53a28c5d84",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C13"
+  },
+  {
+   "path": "C14/C14/C14_Resting.bdf",
+   "bids_path": "sub-C14/eeg/sub-C14_task-rest_eeg.bdf",
+   "bytes": 87404800,
+   "sha256": "1856d54b73ddd9aad3df7f9829e265828717218cbe78c9f68c81e8964b7b92d7",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C14"
+  },
+  {
+   "path": "C14/C14/C14_SSAEP.bdf",
+   "bids_path": "sub-C14/eeg/sub-C14_task-ssaep_run-1_eeg.bdf",
+   "bytes": 125448448,
+   "sha256": "6cac88a4c3a3872a4450dffa7be210735d7bd8d8561015db3cbc87309b18df8c",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C14"
+  },
+  {
+   "path": "C14/C14/C14_SSAEP_2.bdf",
+   "bids_path": "sub-C14/eeg/sub-C14_task-ssaep_run-2_eeg.bdf",
+   "bytes": 42946816,
+   "sha256": "f9eebe81e57be38509414f4fdea601068f1c0cc401bdd4c35e84ca8638bbd587",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C14"
+  },
+  {
+   "path": "C14/C14/C14_SSVEP.bdf",
+   "bids_path": "sub-C14/eeg/sub-C14_task-ssvep_eeg.bdf",
+   "bytes": 163270912,
+   "sha256": "f62cb7f92ef074aeffec59da35b3ca7c66e6038c6dd5e2326604b6b99b1ebd23",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C14"
+  },
+  {
+   "path": "C15/C15/C15_Resting.bdf",
+   "bids_path": "sub-C15/eeg/sub-C15_task-rest_eeg.bdf",
+   "bytes": 86962432,
+   "sha256": "6035d3502330a0360cd61ae1165179acefc9efc743a8de821772890e85f8f9c8",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C15"
+  },
+  {
+   "path": "C15/C15/C15_SSAEP.bdf",
+   "bids_path": "sub-C15/eeg/sub-C15_task-ssaep_eeg.bdf",
+   "bytes": 169242880,
+   "sha256": "244967b361cefa72b591693c2d8496dc88de3ee17adbfe62b31affc1619d706b",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C15"
+  },
+  {
+   "path": "C15/C15/C15_SSVEP.bdf",
+   "bids_path": "sub-C15/eeg/sub-C15_task-ssvep_eeg.bdf",
+   "bytes": 178753792,
+   "sha256": "83c9672dc74fa26b20f65e41e4303fd0b0ab10b3c74f3a12e9a75da486f74a68",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C15"
+  },
+  {
+   "path": "C16/C16/C16_Resting.bdf",
+   "bids_path": "sub-C16/eeg/sub-C16_task-rest_eeg.bdf",
+   "bytes": 87625984,
+   "sha256": "5a09bea970d2024c8d3005e880a3e0f3e76f563918825b788f6ea20eb22e658b",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C16"
+  },
+  {
+   "path": "C16/C16/C16_SSAEP.bdf",
+   "bids_path": "sub-C16/eeg/sub-C16_task-ssaep_eeg.bdf",
+   "bytes": 171454720,
+   "sha256": "a8d8e89ed3af2eaa9bf8f7ce6d52b412dd091a3d33adcd0ef31fef3cca2525a0",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C16"
+  },
+  {
+   "path": "C16/C16/C16_SSVEP.bdf",
+   "bids_path": "sub-C16/eeg/sub-C16_task-ssvep_eeg.bdf",
+   "bytes": 167473408,
+   "sha256": "cf80096d7fc434897584f413b59ce8bb13cc4a22923d12738a41335f4abf48e9",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C16"
+  },
+  {
+   "path": "C17/C17/C17_Resting.bdf",
+   "bids_path": "sub-C17/eeg/sub-C17_task-rest_eeg.bdf",
+   "bytes": 84529408,
+   "sha256": "85954167dbba942214294452d1b504f8d36bbd95010d88fc261b8ee10769ce07",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C17"
+  },
+  {
+   "path": "C17/C17/C17_SSAEP.bdf",
+   "bids_path": "sub-C17/eeg/sub-C17_task-ssaep_eeg.bdf",
+   "bytes": 167915776,
+   "sha256": "c7bf1b412fba599f683d09cbe728c659a823127a23f543e6edadc09ae84c4ea3",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C17"
+  },
+  {
+   "path": "C17/C17/C17_SSVEP.bdf",
+   "bids_path": "sub-C17/eeg/sub-C17_task-ssvep_eeg.bdf",
+   "bytes": 165925120,
+   "sha256": "848e0398c6c7b19a347b297c0d8f18931741c8e2f100746f271d0d8db402ec99",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C17"
+  },
+  {
+   "path": "C18/C18/C18_Resting.bdf",
+   "bids_path": "sub-C18/eeg/sub-C18_task-rest_eeg.bdf",
+   "bytes": 88953088,
+   "sha256": "6755a9d1824130b484584a3bcb9e18ff7435960135d280d4796d4858af77de0b",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C18"
+  },
+  {
+   "path": "C18/C18/C18_SSAEP.bdf",
+   "bids_path": "sub-C18/eeg/sub-C18_task-ssaep_eeg.bdf",
+   "bytes": 176541952,
+   "sha256": "2b7e7f87b9c4cafe67bbb9e2006143f2c15066146bd9c1f3032e5483aaaa70b6",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C18"
+  },
+  {
+   "path": "C18/C18/C18_SSVEP.bdf",
+   "bids_path": "sub-C18/eeg/sub-C18_task-ssvep_eeg.bdf",
+   "bytes": 178753792,
+   "sha256": "fbda53212b62cf5c327cb3d36d46fdc0d2e308eaba414ab4fff35c81518b297b",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C18"
+  },
+  {
+   "path": "C19/C19/C19_Resting.bdf",
+   "bids_path": "sub-C19/eeg/sub-C19_task-rest_eeg.bdf",
+   "bytes": 91828480,
+   "sha256": "801fb914de3a076ae5ebc66475cbaf70b69e9d8abcd8205cf55fc1d7a1d86ad3",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C19"
+  },
+  {
+   "path": "C19/C19/C19_SSAEP.bdf",
+   "bids_path": "sub-C19/eeg/sub-C19_task-ssaep_eeg.bdf",
+   "bytes": 178532608,
+   "sha256": "f6682147b5c9b3dc7f74182d329f357b89d7abd9e8d8076d9152d0f78a7705ff",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C19"
+  },
+  {
+   "path": "C19/C19/C19_SSVEP.bdf",
+   "bids_path": "sub-C19/eeg/sub-C19_task-ssvep_eeg.bdf",
+   "bytes": 172339456,
+   "sha256": "0d16b0f1e7b38549d02277429c01a50f0edadf331bd4204fdf8c0d404693f9d2",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C19"
+  },
+  {
+   "path": "C2/C2/C2_Resting.bdf",
+   "bids_path": "sub-C02/eeg/sub-C02_task-rest_eeg.bdf",
+   "bytes": 87625984,
+   "sha256": "d85bf0946f7625a9cd26a938dadbc89c60f50f118ec9562f8ba51ba08921f521",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C2"
+  },
+  {
+   "path": "C2/C2/C2_SSAEP.bdf",
+   "bids_path": "sub-C02/eeg/sub-C02_task-ssaep_eeg.bdf",
+   "bytes": 173887744,
+   "sha256": "e30ddc8c97ef609f5125d8e45cb1a0d774bf6d45d0558115b9c0081bce4da362",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C2"
+  },
+  {
+   "path": "C2/C2/C2_SSVEP.bdf",
+   "bids_path": "sub-C02/eeg/sub-C02_task-ssvep_eeg.bdf",
+   "bytes": 165925120,
+   "sha256": "cf1903bd3436d91541d5d8bfe7ac2ac6d30810c525483dd5cb224dd4101ce7f4",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C2"
+  },
+  {
+   "path": "C20/C20/C20_Resting.bdf",
+   "bids_path": "sub-C20/eeg/sub-C20_task-rest_eeg.bdf",
+   "bytes": 87847168,
+   "sha256": "f1826c9870c5d4b74e2ad41dda57340fa74685834487b520105839dea18f64df",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C20"
+  },
+  {
+   "path": "C20/C20/C20_SSAEP.bdf",
+   "bids_path": "sub-C20/eeg/sub-C20_task-ssaep_eeg.bdf",
+   "bytes": 182513920,
+   "sha256": "ec3edab26793232b43aab07d1be61cd7ca5123ae85b1f728f87a797d63419c53",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C20"
+  },
+  {
+   "path": "C20/C20/C20_SSVEP.bdf",
+   "bids_path": "sub-C20/eeg/sub-C20_task-ssvep_eeg.bdf",
+   "bytes": 174108928,
+   "sha256": "56257dc1fa99dcdc2d298a21b8b511639f4fbf4b222f189d9024489308d2ebdd",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C20"
+  },
+  {
+   "path": "C21/C21/C21_Resting.bdf",
+   "bids_path": "sub-C21/eeg/sub-C21_task-rest_eeg.bdf",
+   "bytes": 86741248,
+   "sha256": "8cbe09ac8762136483ad5df2b6032cd79f236d4ad5daa021b366304904352fdf",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C21"
+  },
+  {
+   "path": "C21/C21/C21_SSAEP.bdf",
+   "bids_path": "sub-C21/eeg/sub-C21_task-ssaep_eeg.bdf",
+   "bytes": 175214848,
+   "sha256": "c479a9fd635a813c5951cd6b7fc6f142a8c7dfa3630cb8a8e81319e41e21af6b",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C21"
+  },
+  {
+   "path": "C21/C21/C21_SSVEP.bdf",
+   "bids_path": "sub-C21/eeg/sub-C21_task-ssvep_eeg.bdf",
+   "bytes": 161722624,
+   "sha256": "becb2603479d9307f3562a6df9ef1c1fba41597eb4637599197804e684bb82e0",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C21"
+  },
+  {
+   "path": "C3/C3/C3_Resting.bdf",
+   "bids_path": "sub-C03/eeg/sub-C03_task-rest_eeg.bdf",
+   "bytes": 88731904,
+   "sha256": "81ede532a4ab002e439e98c0e76e5baeda7ed2955f2298117703541131a62093",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C3"
+  },
+  {
+   "path": "C3/C3/C3_SSAEP.bdf",
+   "bids_path": "sub-C03/eeg/sub-C03_task-ssaep_eeg.bdf",
+   "bytes": 174993664,
+   "sha256": "6359d8212421246a122887e4cd83dea35fa9445fd3f8d6db8c292fd947e5e955",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C3"
+  },
+  {
+   "path": "C3/C3/C3_SSVEP.bdf",
+   "bids_path": "sub-C03/eeg/sub-C03_task-ssvep_eeg.bdf",
+   "bytes": 168579328,
+   "sha256": "4838a6e05d11d62ee835c0438af9cc71ae0bd84637172953d5a03a09ea0631f0",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C3"
+  },
+  {
+   "path": "C4/C4/C4_Resting.bdf",
+   "bids_path": "sub-C04/eeg/sub-C04_task-rest_eeg.bdf",
+   "bytes": 93597952,
+   "sha256": "8de27184c42d66750bf6c4e85895e68dbc3f88442505da99890aeefef8409970",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C4"
+  },
+  {
+   "path": "C4/C4/C4_SSAEP.bdf",
+   "bids_path": "sub-C04/eeg/sub-C04_task-ssaep_eeg.bdf",
+   "bytes": 178090240,
+   "sha256": "0415af10e70a2bcc36ebccc4c8582989694c6ab2c29b5352331b4250bb61b922",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C4"
+  },
+  {
+   "path": "C4/C4/C4_SSVEP.bdf",
+   "bids_path": "sub-C04/eeg/sub-C04_task-ssvep_eeg.bdf",
+   "bytes": 182513920,
+   "sha256": "2245939aa4a4361a09eb4d15732a2b9c6c849e355df289b67d10cf0c0adac731",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C4"
+  },
+  {
+   "path": "C5/C5/C5_Resting.bdf",
+   "bids_path": "sub-C05/eeg/sub-C05_task-rest_eeg.bdf",
+   "bytes": 86520064,
+   "sha256": "bc9a57dd599aa758d64f2d7c219f2d17e9ed422048a012d31de2a0dbda399dae",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C5"
+  },
+  {
+   "path": "C5/C5/C5_SSAEP.bdf",
+   "bids_path": "sub-C05/eeg/sub-C05_task-ssaep_eeg.bdf",
+   "bytes": 161059072,
+   "sha256": "8ea596cd6b086307da562b38f295e6c83abf8158077505a7c430f0223dc6d389",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C5"
+  },
+  {
+   "path": "C5/C5/C5_SSVEP.bdf",
+   "bids_path": "sub-C05/eeg/sub-C05_task-ssvep_eeg.bdf",
+   "bytes": 160837888,
+   "sha256": "cff5f68d746f7cbd267b926355cb15adeb24bdbf8cbb659c15688dde73258924",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C5"
+  },
+  {
+   "path": "C6/C6/C6_Resting.bdf",
+   "bids_path": "sub-C06/eeg/sub-C06_task-rest_eeg.bdf",
+   "bytes": 90280192,
+   "sha256": "a0fb298563e2c91193095d1c66c9a580d28b534e417d204b787b2ff645344f74",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C6"
+  },
+  {
+   "path": "C6/C6/C6_SSAEP.bdf",
+   "bids_path": "sub-C06/eeg/sub-C06_task-ssaep_eeg.bdf",
+   "bytes": 195563776,
+   "sha256": "7cf0fe387232f4f4764d66b6368e46186732091108725f5d606ad90bd7bdf5e5",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C6"
+  },
+  {
+   "path": "C6/C6/C6_SSVEP.bdf",
+   "bids_path": "sub-C06/eeg/sub-C06_task-ssvep_eeg.bdf",
+   "bytes": 186716416,
+   "sha256": "9abbbfe3e3eba502c94029521d19386693a5816440c351b82a31d5d41011695b",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C6"
+  },
+  {
+   "path": "C7/C7/C7_Resting.bdf",
+   "bids_path": "sub-C07/eeg/sub-C07_task-rest_eeg.bdf",
+   "bytes": 121909504,
+   "sha256": "81a4b0cd1424c3c70e910ef8bcd074971e038d39ca10442fdfb3fe884f306504",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C7"
+  },
+  {
+   "path": "C7/C7/C7_SSAEP.bdf",
+   "bids_path": "sub-C07/eeg/sub-C07_task-ssaep_eeg.bdf",
+   "bytes": 189812992,
+   "sha256": "961003caa6e6559fdae81798bdb268971cce3f6b700adcb4d0f19264fa78eefe",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C7"
+  },
+  {
+   "path": "C7/C7/C7_SSVEP.bdf",
+   "bids_path": "sub-C07/eeg/sub-C07_task-ssvep_eeg.bdf",
+   "bytes": 183619840,
+   "sha256": "48c67aa70dc198c52ed3217ef5be336a75480eedffb5fb43f3128cba6c4abd2e",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C7"
+  },
+  {
+   "path": "C8/C8/C8_Resting.bdf",
+   "bids_path": "sub-C08/eeg/sub-C08_task-rest_eeg.bdf",
+   "bytes": 89616640,
+   "sha256": "1ab2a5b6e2fee39796af4f7365e8856c2555d7f99934c118f058a39330698ba2",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C8"
+  },
+  {
+   "path": "C8/C8/C8_SSAEP.bdf",
+   "bids_path": "sub-C08/eeg/sub-C08_task-ssaep_eeg.bdf",
+   "bytes": 175436032,
+   "sha256": "12999b15cd4e28af45bed3d6d67b9bb99afca1b5f0b0273a90449b8dcaa4403c",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C8"
+  },
+  {
+   "path": "C8/C8/C8_SSVEP.bdf",
+   "bids_path": "sub-C08/eeg/sub-C08_task-ssvep_eeg.bdf",
+   "bytes": 172339456,
+   "sha256": "0c97015443b79124d00d44cc85245b2839241641bc1ae9c52f6d5975032b5b45",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C8"
+  },
+  {
+   "path": "C9/C9/C9_Resting.bdf",
+   "bids_path": "sub-C09/eeg/sub-C09_task-rest_eeg.bdf",
+   "bytes": 91828480,
+   "sha256": "9c0da1872e79295ae27792a7c3cbb0492497e4047d530e993658fcb446d7eb39",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C9"
+  },
+  {
+   "path": "C9/C9/C9_SSAEP.bdf",
+   "bids_path": "sub-C09/eeg/sub-C09_task-ssaep_eeg.bdf",
+   "bytes": 178974976,
+   "sha256": "ae1f71e0dd9a3bb5c541de9be32259e2d053de8c33a2960fdab8685431573841",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C9"
+  },
+  {
+   "path": "C9/C9/C9_SSVEP.bdf",
+   "bids_path": "sub-C09/eeg/sub-C09_task-ssvep_eeg.bdf",
+   "bytes": 163270912,
+   "sha256": "6d736b98c0fc422630fb214419199501c0d3050afe1cd55a78dfecf64864c941",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "C9"
+  },
+  {
+   "path": "M10_1/M10_1/M10_Resting.bdf",
+   "bids_path": "sub-M10/eeg/sub-M10_task-rest_eeg.bdf",
+   "bytes": 87625984,
+   "sha256": "7a3d82efffdb8472d079dc4c61cb1719c21c7ad367dad432039180743fdad0ae",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M10"
+  },
+  {
+   "path": "M10_1/M10_1/M10_SSAEP.bdf",
+   "bids_path": "sub-M10/eeg/sub-M10_task-ssaep_eeg.bdf",
+   "bytes": 170127616,
+   "sha256": "93b44b588e9d138d14534972f2c828c7c46765c0f429fde15ec02d989eb78f99",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M10"
+  },
+  {
+   "path": "M10_1/M10_1/M10_SSVEP.bdf",
+   "bids_path": "sub-M10/eeg/sub-M10_task-ssvep_eeg.bdf",
+   "bytes": 164376832,
+   "sha256": "3166b334c5693fe50066910c51667c6ffd0a680f72f1f50df19b6ffd859b3453",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M10"
+  },
+  {
+   "path": "M11_1/M11_1/M11_Resting.bdf",
+   "bids_path": "sub-M11/eeg/sub-M11_task-rest_eeg.bdf",
+   "bytes": 88068352,
+   "sha256": "78067e7f5a47ddb0eaa8837329b8cbff6375e0f01f37410913de6d743efc3ed7",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M11"
+  },
+  {
+   "path": "M11_1/M11_1/M11_SSAEP.bdf",
+   "bids_path": "sub-M11/eeg/sub-M11_task-ssaep_eeg.bdf",
+   "bytes": 167031040,
+   "sha256": "ee5a6ac128e6be4ab2284692aad0a21809796d75e963a43421c8d32c363a705e",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M11"
+  },
+  {
+   "path": "M11_1/M11_1/M11_SSVEP.bdf",
+   "bids_path": "sub-M11/eeg/sub-M11_task-ssvep_eeg.bdf",
+   "bytes": 168136960,
+   "sha256": "c9c4c60362bfd5ff07bb81874eae4d9593e05923d523887cd9ed074cc6b0a4ae",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M11"
+  },
+  {
+   "path": "M12_2/M12_2/M12_Resting.bdf",
+   "bids_path": "sub-M12/eeg/sub-M12_task-rest_eeg.bdf",
+   "bytes": 87183616,
+   "sha256": "6dc0220aad675e1bfdcee2cfc1d257cf01db1bec12a8470b3ef7144705596d13",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M12"
+  },
+  {
+   "path": "M12_2/M12_2/M12_SSAEP.bdf",
+   "bids_path": "sub-M12/eeg/sub-M12_task-ssaep_eeg.bdf",
+   "bytes": 174551296,
+   "sha256": "31e53c57aee3c85d30fc5e3defbfd30ac3d7a7058216c3e13bac154e40755b38",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M12"
+  },
+  {
+   "path": "M12_2/M12_2/M12_SSVEP.bdf",
+   "bids_path": "sub-M12/eeg/sub-M12_task-ssvep_eeg.bdf",
+   "bytes": 165925120,
+   "sha256": "687106fddedf719f402bb5f4ab39a0a20742bbb4f791ec646c4bec1c1590096b",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M12"
+  },
+  {
+   "path": "M13_2/M13_2/M13_Resting.bdf",
+   "bids_path": "sub-M13/eeg/sub-M13_task-rest_eeg.bdf",
+   "bytes": 86520064,
+   "sha256": "55a6884889f1f5238ad673956ae8c607a3d2aa660068f45c84fd1a9ea1727072",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M13"
+  },
+  {
+   "path": "M13_2/M13_2/M13_SSVEP.bdf",
+   "bids_path": "sub-M13/eeg/sub-M13_task-ssvep_eeg.bdf",
+   "bytes": 167252224,
+   "sha256": "6e6a364c0fa7bdac955c5afd8a78b786dfbe38b684b37c5d9aa94e5dd5f1003b",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M13"
+  },
+  {
+   "path": "M14_1/M14_1/M14_Resting.bdf",
+   "bids_path": "sub-M14/eeg/sub-M14_task-rest_eeg.bdf",
+   "bytes": 89395456,
+   "sha256": "667ca2adf2ce80119ad0041c9f3f2affdb5d443bd17d49e6f62dd5cf9d7e37f1",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M14"
+  },
+  {
+   "path": "M14_1/M14_1/M14_SSAEP.bdf",
+   "bids_path": "sub-M14/eeg/sub-M14_task-ssaep_eeg.bdf",
+   "bytes": 170569984,
+   "sha256": "168880a267c021449f344de7696138de3e33ae0f3a73cf262eeba8dd682bb5dd",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M14"
+  },
+  {
+   "path": "M14_1/M14_1/M14_SSVEP.bdf",
+   "bids_path": "sub-M14/eeg/sub-M14_task-ssvep_eeg.bdf",
+   "bytes": 160174336,
+   "sha256": "1edcbfa5b042453c6c112cfad25c30809148058bc476eae2e34b65606b4c06c9",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M14"
+  },
+  {
+   "path": "M15_2/M15_2/P15_Resting.bdf",
+   "bids_path": "sub-M15/eeg/sub-M15_task-rest_eeg.bdf",
+   "bytes": 135622912,
+   "sha256": "c4c225c3692a555caa42e4b6de594ae0e5be4c7f54ba4f3ddcadf919393ab5d5",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M15"
+  },
+  {
+   "path": "M15_2/M15_2/P15_SSAEP.bdf",
+   "bids_path": "sub-M15/eeg/sub-M15_task-ssaep_eeg.bdf",
+   "bytes": 187158784,
+   "sha256": "955e22a24403d8d22b1b4b630997c1c440d658e943a3127133c3acff45a53785",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M15"
+  },
+  {
+   "path": "M15_2/M15_2/P15_SSVEP.bdf",
+   "bids_path": "sub-M15/eeg/sub-M15_task-ssvep_eeg.bdf",
+   "bytes": 167031040,
+   "sha256": "3fadb7222a24e82e5bfa7dbae5fdd3992d00a3a8da4a709d435427228b8c5a6d",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M15"
+  },
+  {
+   "path": "M16_1/M16_1/M16_Resting.bdf",
+   "bids_path": "sub-M16/eeg/sub-M16_task-rest_eeg.bdf",
+   "bytes": 86962432,
+   "sha256": "f59e0c6f8eeb8e347748b2f90d6d49ab7819e56a6b62a8cf547b1305232939a5",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M16"
+  },
+  {
+   "path": "M16_1/M16_1/M16_SSAEP.bdf",
+   "bids_path": "sub-M16/eeg/sub-M16_task-ssaep_eeg.bdf",
+   "bytes": 173887744,
+   "sha256": "32b3af88f49665cf02ad28f40eded01e48600beca73f86cd9fb62b06c116e9c8",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M16"
+  },
+  {
+   "path": "M16_1/M16_1/M16_SSVEP.bdf",
+   "bids_path": "sub-M16/eeg/sub-M16_task-ssvep_eeg.bdf",
+   "bytes": 167915776,
+   "sha256": "f78dfad74f16a8fc314bc24399fef96ee92809d309d449684c14bf1d6aa98b01",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M16"
+  },
+  {
+   "path": "M17_1/M17_1/M17_Resting.bdf",
+   "bids_path": "sub-M17/eeg/sub-M17_task-rest_eeg.bdf",
+   "bytes": 92934400,
+   "sha256": "070a9faed3305ce1f5440061443f6fd53d566c35304e9c83da07bf7b7b71da1a",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M17"
+  },
+  {
+   "path": "M17_1/M17_1/M17_SSAEP.bdf",
+   "bids_path": "sub-M17/eeg/sub-M17_task-ssaep_eeg.bdf",
+   "bytes": 178532608,
+   "sha256": "6d16a3901f357536786a429ff44851990f910b3dca173f5a157bcae4e4919c70",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M17"
+  },
+  {
+   "path": "M17_1/M17_1/M17_SSVEP.bdf",
+   "bids_path": "sub-M17/eeg/sub-M17_task-ssvep_eeg.bdf",
+   "bytes": 171012352,
+   "sha256": "5d0f75c5d4ac18aee2b1e5972739a91b97f397b2649308558894ac8f623e0599",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M17"
+  },
+  {
+   "path": "M18_1/M18_1/M18_Resting.bdf",
+   "bids_path": "sub-M18/eeg/sub-M18_task-rest_eeg.bdf",
+   "bytes": 87404800,
+   "sha256": "05e9e03632a15d33c13c694feab9e1c4fccb144fe7a01f5892f5c19582a524f2",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M18"
+  },
+  {
+   "path": "M18_1/M18_1/M18_SSAEP.bdf",
+   "bids_path": "sub-M18/eeg/sub-M18_task-ssaep_eeg.bdf",
+   "bytes": 169906432,
+   "sha256": "edaa80fb4bfbd37ce056bf4139596c61503e9e2c9407211fd3abd1d53454c678",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M18"
+  },
+  {
+   "path": "M18_1/M18_1/M18_SSVEP.bdf",
+   "bids_path": "sub-M18/eeg/sub-M18_task-ssvep_eeg.bdf",
+   "bytes": 167694592,
+   "sha256": "918b35cb30924e0d04293e91056d975a36ab1553ebd9473c776d1c07724268c7",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M18"
+  },
+  {
+   "path": "M1_1/M1_1/M1_SSAEP.bdf",
+   "bids_path": "sub-M01/eeg/sub-M01_task-ssaep_eeg.bdf",
+   "bytes": 175657216,
+   "sha256": "d93bff4748b6bd61b7e98273b8e12487c70bb1a120e607ab311f61a27e412d0a",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M1"
+  },
+  {
+   "path": "M1_1/M1_1/M1_SSVEP.bdf",
+   "bids_path": "sub-M01/eeg/sub-M01_task-ssvep_eeg.bdf",
+   "bytes": 167915776,
+   "sha256": "8064cad369dae256cb6c23b9b330c148fb1a364801df87c6da2c9c3f81052394",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M1"
+  },
+  {
+   "path": "M1_1/M1_1/M1resting.bdf",
+   "bids_path": "sub-M01/eeg/sub-M01_task-rest_eeg.bdf",
+   "bytes": 176099584,
+   "sha256": "a8286b62fc8ddf2dd8fd89883842dc1917e37f4dc49301cc7370c03b3c7ffe4d",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M1"
+  },
+  {
+   "path": "M2_1/M2_1/M2_Resting.bdf",
+   "bids_path": "sub-M02/eeg/sub-M02_task-rest_eeg.bdf",
+   "bytes": 183177472,
+   "sha256": "6aba8a83ecc98e4e7c5a18687446b0b280572402c7c759674b36088a7b180998",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M2"
+  },
+  {
+   "path": "M2_1/M2_1/M2_SSAEP.bdf",
+   "bids_path": "sub-M02/eeg/sub-M02_task-ssaep_eeg.bdf",
+   "bytes": 179638528,
+   "sha256": "1d4ddd6699059311dc9014c0706e9d0004804dbbe4b9d5ceb21ca41bf8cf12d3",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M2"
+  },
+  {
+   "path": "M2_1/M2_1/M2_SSVEP.bdf",
+   "bids_path": "sub-M02/eeg/sub-M02_task-ssvep_eeg.bdf",
+   "bytes": 166367488,
+   "sha256": "8d6e746eaecf29e72c2ac61633df0a9fa53cef5a6219283ae7f3bb403d04abbc",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M2"
+  },
+  {
+   "path": "M3_2/M3_2/M3Resting.bdf",
+   "bids_path": "sub-M03/eeg/sub-M03_task-rest_eeg.bdf",
+   "bytes": 90501376,
+   "sha256": "ae73246a666f944059d32e13898d37dce2f1edbe60ef42b3e8812add69f2c030",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M3"
+  },
+  {
+   "path": "M3_2/M3_2/M3_SSAEP.bdf",
+   "bids_path": "sub-M03/eeg/sub-M03_task-ssaep_eeg.bdf",
+   "bytes": 185610496,
+   "sha256": "b04837c7939102d84965a0d520bd30c9a3f6c37ce133ee9c7b1285390acc849b",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M3"
+  },
+  {
+   "path": "M3_2/M3_2/M3_SSVEP.bdf",
+   "bids_path": "sub-M03/eeg/sub-M03_task-ssvep_eeg.bdf",
+   "bytes": 170569984,
+   "sha256": "a103b301c2d8535aafdc69b7475242c6646906a652ea90d13c78da9902f6da15",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M3"
+  },
+  {
+   "path": "M4_1/M4_1/M4_Resting.bdf",
+   "bids_path": "sub-M04/eeg/sub-M04_task-rest_eeg.bdf",
+   "bytes": 88289536,
+   "sha256": "7ee06e1eacf0d51bf5d147b37716d6f8f26f3c285ba9896e17c6d389da221ddf",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M4"
+  },
+  {
+   "path": "M4_1/M4_1/M4_SSAEP.bdf",
+   "bids_path": "sub-M04/eeg/sub-M04_task-ssaep_eeg.bdf",
+   "bytes": 170127616,
+   "sha256": "0e1cb068ec4bb34731b527894047ef26acc680216ba256572bdc4b23ace43d44",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M4"
+  },
+  {
+   "path": "M4_1/M4_1/M4_SSVEP.bdf",
+   "bids_path": "sub-M04/eeg/sub-M04_task-ssvep_eeg.bdf",
+   "bytes": 164598016,
+   "sha256": "51ae6c86e00f6a044ecf5c776b07ad3411a0bba1a60ef909557d9244e22087a8",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M4"
+  },
+  {
+   "path": "M5_1/M5_1/M5_Resting.bdf",
+   "bids_path": "sub-M05/eeg/sub-M05_task-rest_eeg.bdf",
+   "bytes": 93155584,
+   "sha256": "0f7310bc210114bf2344e1473c89047507f2b312406e26258381ae85c74fe9f0",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M5"
+  },
+  {
+   "path": "M5_1/M5_1/M5_SSAEP.bdf",
+   "bids_path": "sub-M05/eeg/sub-M05_task-ssaep_eeg.bdf",
+   "bytes": 177205504,
+   "sha256": "74dabccc93283083511c677d5076319dab941d48c2b7300cb1cdb352e1ff7d90",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M5"
+  },
+  {
+   "path": "M5_1/M5_1/M5_SSVEP.bdf",
+   "bids_path": "sub-M05/eeg/sub-M05_task-ssvep_eeg.bdf",
+   "bytes": 162386176,
+   "sha256": "4f04d09b4be8233e40e125515b17b3955db6cd93e9b89b688a5ad496660add5c",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M5"
+  },
+  {
+   "path": "M6_1/M6_1/M6_Resting.bdf",
+   "bids_path": "sub-M06/eeg/sub-M06_task-rest_eeg.bdf",
+   "bytes": 93376768,
+   "sha256": "c73870507c10f6101cd7efcb414fda8e9a6f9fcbba2d220f750d4f8bda317f13",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M6"
+  },
+  {
+   "path": "M6_1/M6_1/M6_SSAEP.bdf",
+   "bids_path": "sub-M06/eeg/sub-M06_task-ssaep_eeg.bdf",
+   "bytes": 181408000,
+   "sha256": "2a78f297bb2feaf593dedf4dcf3754e3ce1810b70f17cf4c24a79b1ed6f8a81a",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M6"
+  },
+  {
+   "path": "M6_1/M6_1/M6_SSVEP.bdf",
+   "bids_path": "sub-M06/eeg/sub-M06_task-ssvep_eeg.bdf",
+   "bytes": 209719552,
+   "sha256": "86acf6e913ad76fc7d50fae2e167a79dd63abdbde7343c7529631c45d76d6b24",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M6"
+  },
+  {
+   "path": "M7_1/M7_1/M7_Resting.bdf",
+   "bids_path": "sub-M07/eeg/sub-M07_task-rest_eeg.bdf",
+   "bytes": 92713216,
+   "sha256": "1acfa44d44fc1738ad198e6495c7d0ef9401a6c606204e24dd720ee5b49971a9",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M7"
+  },
+  {
+   "path": "M7_1/M7_1/M7_SSAEP.bdf",
+   "bids_path": "sub-M07/eeg/sub-M07_task-ssaep_eeg.bdf",
+   "bytes": 169464064,
+   "sha256": "26a687f7d370260179a09fb09a58e14a6803158a7134532db9481798d2363ddf",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M7"
+  },
+  {
+   "path": "M7_1/M7_1/M7_SSVEP.bdf",
+   "bids_path": "sub-M07/eeg/sub-M07_task-ssvep_eeg.bdf",
+   "bytes": 164819200,
+   "sha256": "e6caa69ef600a32b629114b6922ae54571257f3048c0652212fd224f6d432e70",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M7"
+  },
+  {
+   "path": "M8_2/M8_2/M8_Resting.bdf",
+   "bids_path": "sub-M08/eeg/sub-M08_task-rest_eeg.bdf",
+   "bytes": 85635328,
+   "sha256": "a7f8788d101b4ce6b564cbb8d0dfbadd611bf9f57a7d35448973a98505fd727c",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M8"
+  },
+  {
+   "path": "M8_2/M8_2/M8_SSAEP.bdf",
+   "bids_path": "sub-M08/eeg/sub-M08_task-ssaep_eeg.bdf",
+   "bytes": 173003008,
+   "sha256": "39a2b41d963661323d3769848c52095c3939974deeef3d07b6cb0aa79cccb718",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M8"
+  },
+  {
+   "path": "M8_2/M8_2/M8_SSVEP.bdf",
+   "bids_path": "sub-M08/eeg/sub-M08_task-ssvep_eeg.bdf",
+   "bytes": 163492096,
+   "sha256": "07028c2e7274f9bc2936854963e014ff94d62e330e2beeb6dbd63201e27d21cd",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M8"
+  },
+  {
+   "path": "M9_2/M9_2/M9_Resting.bdf",
+   "bids_path": "sub-M09/eeg/sub-M09_task-rest_eeg.bdf",
+   "bytes": 93819136,
+   "sha256": "f3d3033f56a1d2923e0f6681c5bb8c2ac13b6589a59dd0717a23a6b81e1bb75c",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M9"
+  },
+  {
+   "path": "M9_2/M9_2/M9_SSAEP.bdf",
+   "bids_path": "sub-M09/eeg/sub-M09_task-ssaep_eeg.bdf",
+   "bytes": 171897088,
+   "sha256": "104a0be5a3c089800c770328593024263cf666f4055ac8cb898f2b3907c842b9",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M9"
+  },
+  {
+   "path": "M9_2/M9_2/M9_SSVEP.bdf",
+   "bids_path": "sub-M09/eeg/sub-M09_task-ssvep_eeg.bdf",
+   "bytes": 171897088,
+   "sha256": "789289c77b1f875ad7cfb8b96ee6ab22540bfe4c3332150ec5992b0044d4d6bf",
+   "scope": "eeg_bdf_copied_byte_identical",
+   "raw_subject_id": "M9"
+  },
+  {
+   "path": "EEG_Stimuli.zip:.DS_Store",
+   "bids_path": "stimuli/.DS_Store",
+   "bytes": 6148,
+   "sha256": "fce2ac152f8395db3633f65f9c0f206dacafdb25d6ffa7ac1037e63ff2890245",
+   "scope": "stimuli"
+  },
+  {
+   "path": "EEG_Stimuli.zip:Resting_migraine.m",
+   "bids_path": "stimuli/Resting_migraine.m",
+   "bytes": 2254,
+   "sha256": "dc5df2947ccbe0b7d40481593331c5fce385df9a2861f4e39646cca40c4cfdde",
+   "scope": "stimuli"
+  },
+  {
+   "path": "EEG_Stimuli.zip:aud_SSAEP.m",
+   "bids_path": "stimuli/aud_SSAEP.m",
+   "bytes": 8597,
+   "sha256": "bf70047c7dbc5fe3baa7cdf1e08cb77726a3fa8a6b9cd28c74e6916541191bc3",
+   "scope": "stimuli"
+  },
+  {
+   "path": "EEG_Stimuli.zip:maskandtest_m1.mat",
+   "bids_path": "stimuli/maskandtest_m1.mat",
+   "bytes": 304,
+   "sha256": "2029bd17b46da8abf55fc28003d538de993a5e1812b4ab8cf21dd21b653acfa4",
+   "scope": "stimuli"
+  },
+  {
+   "path": "EEG_Stimuli.zip:maskandtest_m2.mat",
+   "bids_path": "stimuli/maskandtest_m2.mat",
+   "bytes": 318,
+   "sha256": "f40d08f40351da3582f954f103e81c46bc4ebfca3139e11a4a63a8dc0a230d89",
+   "scope": "stimuli"
+  },
+  {
+   "path": "EEG_Stimuli.zip:vis_SSVEP.m",
+   "bids_path": "stimuli/vis_SSVEP.m",
+   "bytes": 9555,
+   "sha256": "8135fa0d03e040aafccdea461284be878c4ddc039936301a051c454b4db562f2",
+   "scope": "stimuli"
+  },
+  {
+   "path": "C1/C1/C1aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C01/C1aud_migraine.txt",
+   "bytes": 1314,
+   "sha256": "cab8c689e54174acdf127c965acf35f579851dc52b136ed9432f4639e9cfdd89",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C1"
+  },
+  {
+   "path": "C1/C1/C1vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C01/C1vis_migraine.txt",
+   "bytes": 1312,
+   "sha256": "f3d3355d1e5f4eb83e6e74ec4dd716b4f98e6f404292fea2a874748d241964cc",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C1"
+  },
+  {
+   "path": "C10/C10/C10aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C10/C10aud_migraine.txt",
+   "bytes": 1318,
+   "sha256": "2fa377af502a9b2fd8234df374adda7a74278c3cd17c2121d5f6f951a9a85c36",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C10"
+  },
+  {
+   "path": "C10/C10/C10vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C10/C10vis_migraine.txt",
+   "bytes": 1318,
+   "sha256": "d90f6c81ab36a6f5e58c90800e91f16769ba92bb90272daa9eb22141ed78894f",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C10"
+  },
+  {
+   "path": "C11/C11/C11aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C11/C11aud_migraine.txt",
+   "bytes": 1311,
+   "sha256": "6fcce0ab09f87be52b9552dc620296b3538dfa7b4ff59bfb11b865199dc7483b",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C11"
+  },
+  {
+   "path": "C11/C11/C11vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C11/C11vis_migraine.txt",
+   "bytes": 1310,
+   "sha256": "8183a18e4ccf80b6ac4c3f22d2c4ce45b60aa59809635a9f261a170875978c8c",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C11"
+  },
+  {
+   "path": "C12/C12/C12aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C12/C12aud_migraine.txt",
+   "bytes": 1315,
+   "sha256": "86fd19e24f1a129b2824f0c844f320a5fcf6d78762140c202a28d15a94e265d1",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C12"
+  },
+  {
+   "path": "C12/C12/C12vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C12/C12vis_migraine.txt",
+   "bytes": 330,
+   "sha256": "5967d20bc837bb0f3a52886d36acccde3c79285646176663501292fa8e5da4fb",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C12"
+  },
+  {
+   "path": "C13/C13/C13aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C13/C13aud_migraine.txt",
+   "bytes": 1319,
+   "sha256": "314d821e788c92ba1ef5e6d24f41880e4ce4697a50121cdea6c9ccf95787cfdb",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C13"
+  },
+  {
+   "path": "C13/C13/C13vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C13/C13vis_migraine.txt",
+   "bytes": 1316,
+   "sha256": "9b7192a7493c2ca5a696db4d2fc565cc5f4c9a3afbd68605c374676981ec2c36",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C13"
+  },
+  {
+   "path": "C14/C14/C14aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C14/C14aud_migraine.txt",
+   "bytes": 1302,
+   "sha256": "9133099433c28e5ae33b6fd081d725ae81ea72f853c9b0e89be28584dbfbfa89",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C14"
+  },
+  {
+   "path": "C14/C14/C14vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C14/C14vis_migraine.txt",
+   "bytes": 1297,
+   "sha256": "13ee21ee334648f46528f376bbaff71ae96ada1e8e50d557f2fa9b218cdeb3b2",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C14"
+  },
+  {
+   "path": "C15/C15/C15aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C15/C15aud_migraine.txt",
+   "bytes": 1319,
+   "sha256": "a580faffc27f0dceb4135eaae13621f3267fbee8c8a5c61805d34530b07ab3e5",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C15"
+  },
+  {
+   "path": "C15/C15/C15vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C15/C15vis_migraine.txt",
+   "bytes": 1314,
+   "sha256": "cc86d10f73f5087edce5bc88026981eba2e4c2898653801f844193f2e7814a04",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C15"
+  },
+  {
+   "path": "C16/C16/C16aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C16/C16aud_migraine.txt",
+   "bytes": 1314,
+   "sha256": "9f7cc2db40d0cbb24cc99396f95257c6498163a6b1c7c6d607ec596f996eea2f",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C16"
+  },
+  {
+   "path": "C16/C16/C16vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C16/C16vis_migraine.txt",
+   "bytes": 1317,
+   "sha256": "a93fab0f3652fa2cabd83e1f1ebf4f29fcdb536462774510ab20e4a00075550b",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C16"
+  },
+  {
+   "path": "C17/C17/C17aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C17/C17aud_migraine.txt",
+   "bytes": 1308,
+   "sha256": "3a83e69974e15f3e429ee7b7bc98144db486769306488988fbe650acc8523abb",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C17"
+  },
+  {
+   "path": "C17/C17/C17vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C17/C17vis_migraine.txt",
+   "bytes": 1317,
+   "sha256": "968d6b058996ecbab2667b91ba660a0e3711d98d3c8f65b508ed704158bc4b95",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C17"
+  },
+  {
+   "path": "C18/C18/C18aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C18/C18aud_migraine.txt",
+   "bytes": 1314,
+   "sha256": "58502d9ebc2daef595fff33ebfc6792160b4f08a5bd5b53d92e77a72ad234c4b",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C18"
+  },
+  {
+   "path": "C18/C18/C18vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C18/C18vis_migraine.txt",
+   "bytes": 1315,
+   "sha256": "5e660c5352cdbe8283e6a7138741d12aa9fd26036d859e984f617e259947569e",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C18"
+  },
+  {
+   "path": "C19/C19/C19aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C19/C19aud_migraine.txt",
+   "bytes": 1318,
+   "sha256": "5e5e5bdd4059578ea1be2e07f3f5367144835a4870abc6edf830aa56bfce0d19",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C19"
+  },
+  {
+   "path": "C19/C19/C19vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C19/C19vis_migraine.txt",
+   "bytes": 1319,
+   "sha256": "d2694784cab8464679178b6cf77066d51d585557a8e6382d6ad0afad81ccbff4",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C19"
+  },
+  {
+   "path": "C2/C2/C2aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C02/C2aud_migraine.txt",
+   "bytes": 1312,
+   "sha256": "1ce25b14ab8972688493a9545ed266d238a22a75bf2c37051230e49b3f0f5707",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C2"
+  },
+  {
+   "path": "C2/C2/C2vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C02/C2vis_migraine.txt",
+   "bytes": 1312,
+   "sha256": "728a12602e2bbb0bc0fffe531d15672659b57e7fbf999620ef7e5d80a7e95b40",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C2"
+  },
+  {
+   "path": "C20/C20/C20aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C20/C20aud_migraine.txt",
+   "bytes": 1307,
+   "sha256": "6565ca2173c1b1db7d9c0678d2a5c9de93a99a88e2b693dee3b051bf9a64cfc7",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C20"
+  },
+  {
+   "path": "C20/C20/C20vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C20/C20vis_migraine.txt",
+   "bytes": 1317,
+   "sha256": "4326da446a119475a5266df601712d8efaa98f0073b99779f3d4030e299b1b44",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C20"
+  },
+  {
+   "path": "C21/C21/C21aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C21/C21aud_migraine.txt",
+   "bytes": 1309,
+   "sha256": "383dfd2890658815299b9be66d2cdbb9637424f87ae469c0c736ef93d7d126d9",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C21"
+  },
+  {
+   "path": "C21/C21/C21vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C21/C21vis_migraine.txt",
+   "bytes": 1314,
+   "sha256": "e63e38fb69b92be9d2beb717cd9abcb97ad07391be0f732f6bfe890a635c7d3f",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C21"
+  },
+  {
+   "path": "C3/C3/C3_2aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C03/C3_2aud_migraine.txt",
+   "bytes": 656,
+   "sha256": "bfd302ff58019148bf54c9ac8c094d57ff2cd86eb150de9d3949fcb66a81e12c",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C3"
+  },
+  {
+   "path": "C3/C3/C3aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C03/C3aud_migraine.txt",
+   "bytes": 655,
+   "sha256": "5cfd771972e7bc340f935470449b65fe27621b10eef0a6846c11bea9a9899517",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C3"
+  },
+  {
+   "path": "C3/C3/C3vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C03/C3vis_migraine.txt",
+   "bytes": 1311,
+   "sha256": "cb04603de71956e8bc7d947a6a13d560a03816b2c1bcf11d58e3797d1aa371be",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C3"
+  },
+  {
+   "path": "C4/C4/C4aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C04/C4aud_migraine.txt",
+   "bytes": 1313,
+   "sha256": "5c4e99b26e7d87e39fab4a9ec95f50f92a001d7008d34990ae2d34c255a6f0b8",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C4"
+  },
+  {
+   "path": "C4/C4/C4vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C04/C4vis_migraine.txt",
+   "bytes": 1313,
+   "sha256": "6cf17461d1085216507ab58a8439805b1fa84d810be172468f31475728de7e85",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C4"
+  },
+  {
+   "path": "C5/C5/C5aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C05/C5aud_migraine.txt",
+   "bytes": 1317,
+   "sha256": "65f5055afa18bd6fbfc93ecc8fb2dd178ad5a3ed907b102f0cbc1bc69f46560b",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C5"
+  },
+  {
+   "path": "C5/C5/C5vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C05/C5vis_migraine.txt",
+   "bytes": 1318,
+   "sha256": "9940c9743b3195c1777627c53c3b924c4923cae8fc0ca955a88faec370a6153c",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C5"
+  },
+  {
+   "path": "C6/C6/C6aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C06/C6aud_migraine.txt",
+   "bytes": 1315,
+   "sha256": "d60cb660e535fa6c7ec07ec12144a60858897715df6190ae871d3c9fb539cfce",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C6"
+  },
+  {
+   "path": "C6/C6/C6vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C06/C6vis_migraine.txt",
+   "bytes": 1316,
+   "sha256": "e1902fdfa158f1a1e4a2458bcde2a4a9eb19fcd49cd8a951c7814683b470ca7c",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C6"
+  },
+  {
+   "path": "C7/C7/C7_2vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C07/C7_2vis_migraine.txt",
+   "bytes": 987,
+   "sha256": "e1e628bdf5bce853cec7a5d5f1356abfb32f01b6fe1b920fc1ea67766d9536f6",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C7"
+  },
+  {
+   "path": "C7/C7/C7aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C07/C7aud_migraine.txt",
+   "bytes": 1310,
+   "sha256": "457dbaf1e7424ce6474a3fdadfab2efc97074dcd951094f02a1f2e7b6f0325c6",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C7"
+  },
+  {
+   "path": "C7/C7/C7vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C07/C7vis_migraine.txt",
+   "bytes": 347,
+   "sha256": "0aed4492282305788f76f6d9e973cdc1e47fb9f0bc4805f0a117078eee17326a",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C7"
+  },
+  {
+   "path": "C8/C8/C8aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C08/C8aud_migraine.txt",
+   "bytes": 1317,
+   "sha256": "76bb452e35e30a61e921382e86c4b5031f4065f598dd6a08ade9a6a9acde729e",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C8"
+  },
+  {
+   "path": "C8/C8/C8aud_migraine.xlsx",
+   "bids_path": "sourcedata/sub-C08/C8aud_migraine.xlsx",
+   "bytes": 10401,
+   "sha256": "81fb392d2004bf61971f4905dc05640a3fefa917be44d92264555afd89ebb4c3",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C8"
+  },
+  {
+   "path": "C8/C8/C8vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C08/C8vis_migraine.txt",
+   "bytes": 1317,
+   "sha256": "d53b187fb47dfc84d47e38be02c1a3e97182968688e7a5b35e032b54e010629c",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C8"
+  },
+  {
+   "path": "C8/C8/C8vis_migraine.xlsx",
+   "bids_path": "sourcedata/sub-C08/C8vis_migraine.xlsx",
+   "bytes": 10399,
+   "sha256": "fcf551d171d4c866ca398e5683d39f6ffee337f49c22aa904518d334057eae44",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C8"
+  },
+  {
+   "path": "C9/C9/C9aud_migraine.txt",
+   "bids_path": "sourcedata/sub-C09/C9aud_migraine.txt",
+   "bytes": 1304,
+   "sha256": "641295b9ca244ae1b0aa22ff784ca2308130e708f8b98b6031c5c98cd7f219f3",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C9"
+  },
+  {
+   "path": "C9/C9/C9vis_migraine.txt",
+   "bids_path": "sourcedata/sub-C09/C9vis_migraine.txt",
+   "bytes": 1320,
+   "sha256": "0d3371775acc3bdb10bee9b85ca09c5bb1186e7593cee0fd525b0f791df640d3",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "C9"
+  },
+  {
+   "path": "M10_1/M10_1/M10aud_migraine.txt",
+   "bids_path": "sourcedata/sub-M10/M10aud_migraine.txt",
+   "bytes": 1320,
+   "sha256": "e277ac38eb4d1cfd209025d7b39863c08324d8b3e2ecfb3f09de754e509b34e7",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M10"
+  },
+  {
+   "path": "M10_1/M10_1/M10vis_migraine.txt",
+   "bids_path": "sourcedata/sub-M10/M10vis_migraine.txt",
+   "bytes": 1320,
+   "sha256": "de6f0299c6580358c1d46895e949757e9f14752c57282445b4e0d8322939ad4d",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M10"
+  },
+  {
+   "path": "M11_1/M11_1/M11aud_migraine.txt",
+   "bids_path": "sourcedata/sub-M11/M11aud_migraine.txt",
+   "bytes": 1317,
+   "sha256": "92684b41592e9628b183ffd53dd86a8c1aa4a84c65b9d3dc01de3d1c4749ac52",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M11"
+  },
+  {
+   "path": "M11_1/M11_1/M11vis_migraine.txt",
+   "bids_path": "sourcedata/sub-M11/M11vis_migraine.txt",
+   "bytes": 1315,
+   "sha256": "1ae11d8b30c0b74d228f300723e3ad6e72878af993e983a4c01b8415f6a3c225",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M11"
+  },
+  {
+   "path": "M12_2/M12_2/M12aud_migraine.txt",
+   "bids_path": "sourcedata/sub-M12/M12aud_migraine.txt",
+   "bytes": 1308,
+   "sha256": "ccab89cbc6361c7c808237aa134166ea273d4832ca290fa806c3f392fe5fc428",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M12"
+  },
+  {
+   "path": "M12_2/M12_2/M12vis_migraine.txt",
+   "bids_path": "sourcedata/sub-M12/M12vis_migraine.txt",
+   "bytes": 1315,
+   "sha256": "69f2332f5f4c7f879661f6435e30588dc25b10439eede85322d39aef25c2bd41",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M12"
+  },
+  {
+   "path": "M13_2/M13_2/M13vis_migraine.txt",
+   "bids_path": "sourcedata/sub-M13/M13vis_migraine.txt",
+   "bytes": 1313,
+   "sha256": "29dc1b1a0535ff9db11c6462d4d45ad93209d66a9a74675b05348fd0d19c8017",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M13"
+  },
+  {
+   "path": "M13_2/M13_2/M13vis_migraine.xlsx",
+   "bids_path": "sourcedata/sub-M13/M13vis_migraine.xlsx",
+   "bytes": 10384,
+   "sha256": "208ac96d1446f3b11f57bd74792ebbd6360e46fd0c3e4b62a6d6a894284046d5",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M13"
+  },
+  {
+   "path": "M14_1/M14_1/M14aud_migraine.txt",
+   "bids_path": "sourcedata/sub-M14/M14aud_migraine.txt",
+   "bytes": 1304,
+   "sha256": "9182787339b53858226b2b4c2778ffb870bdac29f8bdb5ce189fb52fb4e072a8",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M14"
+  },
+  {
+   "path": "M14_1/M14_1/M14aud_migraine.xlsx",
+   "bids_path": "sourcedata/sub-M14/M14aud_migraine.xlsx",
+   "bytes": 10342,
+   "sha256": "3a35dc38fe143932d8fcd0db3f207825ea8ba0376dcd200592b28f454ddc56ab",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M14"
+  },
+  {
+   "path": "M14_1/M14_1/M14vis_migraine.txt",
+   "bids_path": "sourcedata/sub-M14/M14vis_migraine.txt",
+   "bytes": 1319,
+   "sha256": "40f42ef6fc3a13e84faac47034ec979531490d1f1f94e57f76582dda04e89fe0",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M14"
+  },
+  {
+   "path": "M14_1/M14_1/M14vis_migraine.xlsx",
+   "bids_path": "sourcedata/sub-M14/M14vis_migraine.xlsx",
+   "bytes": 10380,
+   "sha256": "06cf7b8f544ab3199898cdffdf8e422eec537eb63c062ae9586295f49ddd6ff8",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M14"
+  },
+  {
+   "path": "M15_2/M15_2/M15_2aud_migraine.txt",
+   "bids_path": "sourcedata/sub-M15/M15_2aud_migraine.txt",
+   "bytes": 660,
+   "sha256": "d68b39d80727884bd78785e34ed0f305bd0e71d259dcd8f2f6676d67682dd94d",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M15"
+  },
+  {
+   "path": "M15_2/M15_2/M15vis_migraine.txt",
+   "bids_path": "sourcedata/sub-M15/M15vis_migraine.txt",
+   "bytes": 1310,
+   "sha256": "0a11927d223fb56c9d38c74c19de1ca9c550978d4c9fc918e1bd1d337fdaacb3",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M15"
+  },
+  {
+   "path": "M16_1/M16_1/M16aud_migraine.txt",
+   "bids_path": "sourcedata/sub-M16/M16aud_migraine.txt",
+   "bytes": 1315,
+   "sha256": "b2417a7b178f1526e3c1df52bae5769d055e6f038a4944a37dbff19e754929c6",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M16"
+  },
+  {
+   "path": "M16_1/M16_1/M16vis_migraine.txt",
+   "bids_path": "sourcedata/sub-M16/M16vis_migraine.txt",
+   "bytes": 1317,
+   "sha256": "709213adc16887dcd2ede64a2da11cf6316f3234bf492e372745a65e2f13d4db",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M16"
+  },
+  {
+   "path": "M17_1/M17_1/M17aud_migraine.txt",
+   "bids_path": "sourcedata/sub-M17/M17aud_migraine.txt",
+   "bytes": 1318,
+   "sha256": "9bba57ac505f3b9c7a9862577326a78f89b0beab53ebb2c0d2be13039fc6d9e5",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M17"
+  },
+  {
+   "path": "M17_1/M17_1/M17vis_migraine.txt",
+   "bids_path": "sourcedata/sub-M17/M17vis_migraine.txt",
+   "bytes": 1320,
+   "sha256": "78701fa1f57fb982ae289d09f57d876097aae2addc9595bee3070cd2adfe9050",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M17"
+  },
+  {
+   "path": "M18_1/M18_1/M18aud_migraine.txt",
+   "bids_path": "sourcedata/sub-M18/M18aud_migraine.txt",
+   "bytes": 1312,
+   "sha256": "ef0206534826825cc870dd57b41ad665ac1ec70e19a6ea7e35ea398c9db57b5a",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M18"
+  },
+  {
+   "path": "M18_1/M18_1/M18vis_migraine.txt",
+   "bids_path": "sourcedata/sub-M18/M18vis_migraine.txt",
+   "bytes": 1312,
+   "sha256": "e87b5c2080d1d46e139e305eac17e8598a7c7629173b98cb25fa385d56670bcc",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M18"
+  },
+  {
+   "path": "M1_1/M1_1/M1aud_migraine.txt",
+   "bids_path": "sourcedata/sub-M01/M1aud_migraine.txt",
+   "bytes": 1318,
+   "sha256": "9bac61cadc73af04b0cf858ec4fb986c9e01a839276c784222381ae5ece37504",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M1"
+  },
+  {
+   "path": "M1_1/M1_1/M1vis_migraine.txt",
+   "bids_path": "sourcedata/sub-M01/M1vis_migraine.txt",
+   "bytes": 1319,
+   "sha256": "6f2d6356453b314164e979610c9fdde7bf46ff7b4131d9a5d75249ee9a0d3709",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M1"
+  },
+  {
+   "path": "M2_1/M2_1/M2aud_migraine.txt",
+   "bids_path": "sourcedata/sub-M02/M2aud_migraine.txt",
+   "bytes": 1316,
+   "sha256": "b7937bdd3a444f52d74681aa75afea48c1b625f0da73ef57da13721f8325f521",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M2"
+  },
+  {
+   "path": "M2_1/M2_1/M2vis_migraine.txt",
+   "bids_path": "sourcedata/sub-M02/M2vis_migraine.txt",
+   "bytes": 1316,
+   "sha256": "7dd7ec0128dd87ae976b55e444c1e794499151d724a044b5ddedb1a7822f8a92",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M2"
+  },
+  {
+   "path": "M3_2/M3_2/M3aud_migraine.txt",
+   "bids_path": "sourcedata/sub-M03/M3aud_migraine.txt",
+   "bytes": 1305,
+   "sha256": "9f7e8eb8094904d1f8eedb565e0a59f9a23b81a516ca918f5907dd59a2831c2c",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M3"
+  },
+  {
+   "path": "M3_2/M3_2/M3vis_migraine.txt",
+   "bids_path": "sourcedata/sub-M03/M3vis_migraine.txt",
+   "bytes": 1314,
+   "sha256": "81045f80e2495e5568bf48e4574a7f17d0427a9aec1f7a4c97ae5e62309b5f10",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M3"
+  },
+  {
+   "path": "M4_1/M4_1/M4aud_migraine.txt",
+   "bids_path": "sourcedata/sub-M04/M4aud_migraine.txt",
+   "bytes": 1320,
+   "sha256": "1944201d132067e60199d2f40905e204669fd3accaaa349baee33363f4beef7c",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M4"
+  },
+  {
+   "path": "M4_1/M4_1/M4vis_migraine.txt",
+   "bids_path": "sourcedata/sub-M04/M4vis_migraine.txt",
+   "bytes": 1320,
+   "sha256": "0b8fd261b35838a17f397c443d31b9cd4dc1db23ba79f00d2daefec958308722",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M4"
+  },
+  {
+   "path": "M5_1/M5_1/M5aud_migraine.txt",
+   "bids_path": "sourcedata/sub-M05/M5aud_migraine.txt",
+   "bytes": 1307,
+   "sha256": "6c9c4db3f6db897cc8281947ba32f7a6a7ae5f4b536561af4b305324ac7559f9",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M5"
+  },
+  {
+   "path": "M5_1/M5_1/M5vis_migraine.txt",
+   "bids_path": "sourcedata/sub-M05/M5vis_migraine.txt",
+   "bytes": 1317,
+   "sha256": "21ded8300bfbc16e612a1f209773e2f65a62c8e519da0bc7297f2b2a932c67d5",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M5"
+  },
+  {
+   "path": "M6_1/M6_1/M6_2aud_migraine.txt",
+   "bids_path": "sourcedata/sub-M06/M6_2aud_migraine.txt",
+   "bytes": 659,
+   "sha256": "bf22f58fe74a7ed34b0af04afeb2aeeda6414ecc13413beef241e44910d86a39",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M6"
+  },
+  {
+   "path": "M6_1/M6_1/M6aud_migraine.txt",
+   "bids_path": "sourcedata/sub-M06/M6aud_migraine.txt",
+   "bytes": 692,
+   "sha256": "82e97067c2a2dbf92f7a70d471d9d1348336d3391af454b6d4c21545d09fe42c",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M6"
+  },
+  {
+   "path": "M6_1/M6_1/M6vis_migraine.txt",
+   "bids_path": "sourcedata/sub-M06/M6vis_migraine.txt",
+   "bytes": 1318,
+   "sha256": "667ca1e796847496865477f96f715832d8da7a636920a90ae1290ff7a2580f91",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M6"
+  },
+  {
+   "path": "M7_1/M7_1/M7aud_migraine.txt",
+   "bids_path": "sourcedata/sub-M07/M7aud_migraine.txt",
+   "bytes": 330,
+   "sha256": "9b9a8b3872d60ff54df3e38b550c6eefc5208480f84a757eff314798d23a547c",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M7"
+  },
+  {
+   "path": "M7_1/M7_1/M7vis_migraine.txt",
+   "bids_path": "sourcedata/sub-M07/M7vis_migraine.txt",
+   "bytes": 1319,
+   "sha256": "c202f20221cffbc926ced432cc14ed47305811879e829fb82df08038edcfa89a",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M7"
+  },
+  {
+   "path": "M8_2/M8_2/M8aud_migraine.txt",
+   "bids_path": "sourcedata/sub-M08/M8aud_migraine.txt",
+   "bytes": 1317,
+   "sha256": "4e96184a2ca15cfe57e050a5e3c2cb467420085e2e52fd8690c587285a0839d8",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M8"
+  },
+  {
+   "path": "M8_2/M8_2/M8vis_migraine.txt",
+   "bids_path": "sourcedata/sub-M08/M8vis_migraine.txt",
+   "bytes": 1313,
+   "sha256": "70055144b62468f9f407b7d3868db2c5470851d356e8d15b4f3b16eb2d31d57e",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M8"
+  },
+  {
+   "path": "M9_2/M9_2/M9aud_migraine.txt",
+   "bids_path": "sourcedata/sub-M09/M9aud_migraine.txt",
+   "bytes": 1294,
+   "sha256": "704619e44f83bc54fee7e0d29e04370ac1834fe64c93a74b5b5d11d9ef6a0e80",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M9"
+  },
+  {
+   "path": "M9_2/M9_2/M9aud_migraine.xlsx",
+   "bids_path": "sourcedata/sub-M09/M9aud_migraine.xlsx",
+   "bytes": 10322,
+   "sha256": "922e8983f54685bc363c3c69b97061a8862c4f1550c5f1730c511d035789fbf1",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M9"
+  },
+  {
+   "path": "M9_2/M9_2/M9vis_migraine.txt",
+   "bids_path": "sourcedata/sub-M09/M9vis_migraine.txt",
+   "bytes": 1312,
+   "sha256": "b0cf4beb94d886e2c9c969492e8c7c1ad64d5af1cf9989c8ceea6e019c86dbb7",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M9"
+  },
+  {
+   "path": "M9_2/M9_2/M9vis_migraine.xlsx",
+   "bids_path": "sourcedata/sub-M09/M9vis_migraine.xlsx",
+   "bytes": 10365,
+   "sha256": "150c89dcdad6d842f7377c56d2025367b6d36f507d428ff89008dc33af9a55fe",
+   "scope": "behaviour_reaction_times",
+   "raw_subject_id": "M9"
+  }
+ ]
+}
