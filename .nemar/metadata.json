@@ -1,0 +1,129 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Alireza Chamanzar": {
+      "orcid": "0000-0001-6319-7486",
+      "affiliations": [
+        {
+          "name": "Department of Electrical and Computer Engineering, Carnegie Mellon University, Pittsburgh, PA, USA"
+        },
+        {
+          "name": "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA 15213, USA"
+        }
+      ]
+    },
+    "Sarah M. Haigh": {
+      "orcid": "0000-0003-2400-4412",
+      "affiliations": [
+        {
+          "name": "Department of Psychology, University of Nevada, Reno, NV 89557, USA"
+        },
+        {
+          "name": "Institute for Neuroscience, University of Nevada, Reno, NV 89557, USA"
+        },
+        {
+          "name": "Department of Psychology, Carnegie Mellon University, Pittsburgh, PA, USA"
+        }
+      ]
+    },
+    "Pulkit Grover": {},
+    "Marlene Behrmann": {
+      "orcid": "0000-0002-3814-1015"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1184/R1/12636731",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1093/braincomms/fcab061",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000349",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000349",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "CMU BrainHUB (MB, PG, AC)"
+    },
+    {
+      "funder_name": "Chuck Noll Foundation for Brain Injury Research (PG)"
+    },
+    {
+      "funder_name": "CMU BrainHUB"
+    },
+    {
+      "funder_name": "Chuck Noll Foundation for Brain Injury Research"
+    },
+    {
+      "funder_name": "NARSAD Young Investigator Grant (BBRF)",
+      "award_number": "26282"
+    },
+    {
+      "funder_name": "NSF EPSCoR",
+      "award_number": "1632849"
+    }
+  ],
+  "title": "Chamanzar2020: Ultra high-density EEG of interictal migraine and controls during visual, auditory stimulation and rest",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "26.77 GB (158 files)"
+  ],
+  "formats": [
+    ".DS_Store",
+    ".bdf",
+    ".json",
+    ".m",
+    ".mat",
+    ".pdf",
+    ".tsv",
+    ".txt",
+    ".xlsx",
+    ".zip"
+  ],
+  "description": "Ultra high-density EEG (128 channels, custom cap with ~14 mm spacing over occipital, parietal and frontal areas) recorded from 18 individuals with migraine during the interictal period and 21 healthy controls. Tasks comprised steady-state visual evoked potentials (flickering gratings at 4 or 6 Hz), steady-state auditory evoked potentials (amplitude-modulated tones at 4 or 6 Hz), and eyes-open resting state. The data support analyses of abnormal cortical coherence patterns in migraine.",
+  "methods_description": "Recorded with a 128-channel BioSemi ActiveTwo system at 512 Hz (24-bit) inside a Faraday cage, with auxiliary EOG, ECG, GSR, respiration, plethysmography and temperature channels. SSVEP and SSAEP stimuli were presented for 2 s (100 trials per frequency) with 1-1.5 s ISI, with about 10% attention trials requiring a key press; resting state was eyes open with a fixation cross in 2-min blocks.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Migraine Disorders",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008881"
+    },
+    {
+      "term": "Evoked Potentials",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005071"
+    },
+    {
+      "term": "steady-state evoked potentials"
+    },
+    {
+      "term": "ultra high-density EEG"
+    },
+    {
+      "term": "resting state"
+    }
+  ],
+  "source_hash": "65c84bcaead1f507a6cbcaca018f89bf08fb82eacb816bbea6acef7da7bd080e"
+}
