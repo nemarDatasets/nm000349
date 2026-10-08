@@ -1,0 +1,50 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000349-blue)](https://doi.org/10.82901/nemar.nm000349)
+
+# Ultra high-density EEG of interictal migraine and controls: sensory and rest
+
+BIDS conversion of the Carnegie Mellon University KiltHub release doi:10.1184/R1/12636731
+(Chamanzar, Haigh, Grover, Behrmann; CC BY 4.0), data for Chamanzar et al. (2021),
+"Abnormalities in cortical pattern of coherence in migraine detected using ultra high-density EEG",
+Brain Communications, doi:10.1093/braincomms/fcab061.
+
+## Participants
+39 participants: 18 with migraine recorded interictally (sub-M01..sub-M18) and
+21 healthy controls (sub-C01..sub-C21). The published analysis used 17 migraine (14 after
+excluding M2, M6, M18 for medication; M13 lacks the auditory task) and 18 matched controls; C2, C6 and
+C12 are additional controls without demographics. See `participants.tsv` (`in_paper_analysis`, `notes`).
+
+## Recording
+128-channel BioSemi ActiveTwo, 512 Hz, 24-bit, custom ultra-high-density cap (~14 mm spacing) over
+occipital, parietal and frontal areas, inside a Faraday cage. Channel labels use 10-5 names, but the
+positions are custom and no digitized coordinates were released, so no electrodes.tsv is provided.
+Auxiliary channels: mastoids M1/M2 (type EEG), EOG LO1/LO2/IO1/SO1, ECG (collar bone), IO2 (role not
+documented, type MISC), GSR1/2, Erg1/2, Resp, Plet, Temp. Online reference CMS/DRL; no offline processing.
+Mains frequency 60 Hz.
+
+## Tasks
+- `task-ssvep`: vertical grating flickering at 4 or 6 Hz for 2 s (100 trials each), ISI 1-1.5 s.
+- `task-ssaep`: 1 kHz tone amplitude-modulated at 4 or 6 Hz for 2 s (100 trials each), ISI 1-1.5 s.
+- `task-rest`: eyes open, fixation cross, 2-min blocks.
+About 10% of task trials are attention trials with a key press (colour change of the fixation cross).
+Event codes are decoded from the Status channel; see `task-*_events.json`. The Status channel's bit 16
+(value 65536) toggles occasionally; it is masked out and is not an event.
+
+## Known irregularities (from the original files)
+- sub-M13 has no SSAEP recording (documented in the release).
+- sub-C14 SSAEP was recorded in two files (run-1: 75+75 trials, run-2: 25+25 trials).
+- sub-C12 SSVEP is truncated (25+25 trials, ~215 s); not documented in the release.
+- Most resting files contain 2-3 blocks (~400 s) rather than the six blocks in the protocol; sub-M01 and
+  sub-M02 contain ~800 s.
+- Trigger value 5 at the end of some resting files and one value 23 (sub-M03 SSVEP) are not described in
+  the protocol; they are kept as `undocumented_code_*`.
+- Original file names: M15's files are named `P15_*`; M1/M3 resting use `M1resting`/`M3Resting`.
+
+## Additional material
+- `stimuli/`: MATLAB/Psychtoolbox code of the three paradigms and SSVEP pattern files (from the release).
+- `sourcedata/original_release/`: the complete original KiltHub release, all 43 files byte-identical to
+  doi:10.1184/R1/12636731 (per-subject zips, README.txt, protocol PDF, demographics sheet, stimulus zip).
+- `sourcedata/sub-*/`: per-subject feedback reaction-time files extracted from the zips
+  (`*aud_migraine.txt`, `*vis_migraine.txt`: line 1 trial labels 1/2, line 2 attention trials, line 3
+  response times in s).
+- `sourcedata/sourcedata_provenance.json`: size, MD5/SHA-256 and origin of every source file; the BIDS
+  `*_eeg.bdf` files are byte-identical to the BDFs inside the original zips.
