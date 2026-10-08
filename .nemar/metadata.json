@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Chamanzar2020: Ultra high-density EEG of interictal migraine and controls during visual, auditory stimulation and rest",
+  "description": "Ultra high-density 128-channel EEG recorded from 18 individuals with migraine (interictal) and 21 healthy controls. Recordings include steady-state visual evoked potential (SSVEP) and steady-state auditory evoked potential (SSAEP) tasks at 4 and 6 Hz, as well as eyes-open resting state. The data support analyses of cortical coherence abnormalities in migraine.",
+  "methods_description": "Recorded with a 128-channel BioSemi ActiveTwo system at 512 Hz (24-bit) using a custom ultra-high-density cap (~14 mm spacing) over occipital, parietal and frontal areas, inside a Faraday cage. Tasks comprised flickering vertical gratings (SSVEP), amplitude-modulated 1 kHz tones (SSAEP) and eyes-open rest with a fixation cross. Roughly 10% of trials were attention trials requiring a key press. Auxiliary channels included EOG, ECG, GSR, respiration, plethysmography and temperature.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
   "authors": {
     "Alireza Chamanzar": {
       "orcid": "0000-0001-6319-7486",
@@ -32,6 +37,35 @@
       "orcid": "0000-0002-3814-1015"
     }
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Migraine Disorders",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008881"
+    },
+    {
+      "term": "Evoked Potentials, Visual",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005074"
+    },
+    {
+      "term": "Evoked Potentials, Auditory",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005072"
+    },
+    {
+      "term": "ultra high-density EEG"
+    },
+    {
+      "term": "SSVEP"
+    },
+    {
+      "term": "resting state"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1184/R1/12636731",
@@ -76,14 +110,11 @@
       "award_number": "1632849"
     }
   ],
-  "title": "Chamanzar2020: Ultra high-density EEG of interictal migraine and controls during visual, auditory stimulation and rest",
-  "license": "CC-BY-4.0",
-  "dataset_type": "raw",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "26.77 GB (158 files)"
   ],
@@ -93,37 +124,13 @@
     ".json",
     ".m",
     ".mat",
+    ".md",
     ".pdf",
     ".tsv",
     ".txt",
     ".xlsx",
+    ".yml",
     ".zip"
   ],
-  "description": "Ultra high-density EEG (128 channels, custom cap with ~14 mm spacing over occipital, parietal and frontal areas) recorded from 18 individuals with migraine during the interictal period and 21 healthy controls. Tasks comprised steady-state visual evoked potentials (flickering gratings at 4 or 6 Hz), steady-state auditory evoked potentials (amplitude-modulated tones at 4 or 6 Hz), and eyes-open resting state. The data support analyses of abnormal cortical coherence patterns in migraine.",
-  "methods_description": "Recorded with a 128-channel BioSemi ActiveTwo system at 512 Hz (24-bit) inside a Faraday cage, with auxiliary EOG, ECG, GSR, respiration, plethysmography and temperature channels. SSVEP and SSAEP stimuli were presented for 2 s (100 trials per frequency) with 1-1.5 s ISI, with about 10% attention trials requiring a key press; resting state was eyes open with a fixation cross in 2-min blocks.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "Migraine Disorders",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008881"
-    },
-    {
-      "term": "Evoked Potentials",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005071"
-    },
-    {
-      "term": "steady-state evoked potentials"
-    },
-    {
-      "term": "ultra high-density EEG"
-    },
-    {
-      "term": "resting state"
-    }
-  ],
-  "source_hash": "65c84bcaead1f507a6cbcaca018f89bf08fb82eacb816bbea6acef7da7bd080e"
+  "source_hash": "a0608ce583316f1011178653e560cdde71745aeda69e7b65f7735f5efab496ad"
 }
